@@ -6,7 +6,7 @@ check_PROGRAMS = \
 	t-has-arrayv \
 	t-has-boolean \
 	t-has-stringlist
-	$(top_builddir)/xfconf/libxfconf-$(LIBXFCONF_VERSION_API).la
+	$(top_builddir)/esconf/libesconf-$(LIBESCONF_VERSION_API).la
 
 t_has_string_SOURCES = t-has-string.c
 t_has_int_SOURCES = t-has-string.c

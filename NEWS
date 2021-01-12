@@ -3,7 +3,7 @@
 - Don't use shebang for bash completion file
 - Remove GLIB_CHECK_VERSION IFDEFs which are obsolete after glib bump
 - bump glib (and gio, gthread, etc) minimum to 2.50.0
-- remove last traces of xfconf-perl
+- remove last traces of esconf-perl
 - Fix make distcheck and enable it on gitlab CI
 - Add README.md to EXTRA_DIST
 - Post release autoconf git revision
@@ -14,7 +14,7 @@
 - Fix stray double-quote in bash-completion PKG_CONFIG invocation
 - Disable parallelism on all tests
 - Adds new README.md and updates AM_INIT_AUTOMAKE
-- xfconf-cache: Fix access to freed data (#16)
+- esconf-cache: Fix access to freed data (#16)
 - Translation Updates: oc, he, hu, hy_AM, lt, sk, sq, ug, tr.
 
 4.15.0
@@ -23,9 +23,9 @@
 - Use 'gsettings' as a common channel name for the GSetting backend
 - Bug #14789 Fix GSettings backend assertion error, when probed but not used
 - Enable GSettings backend build by default
-- Add Bash completion for xfconf-query
-- Bug #15960: Add some missing xfconf_shutdown() in xfconf-query
-- Bug #15951: Fix 'xfconf_get_error_quark' introspecting warning
+- Add Bash completion for esconf-query
+- Bug #15960: Add some missing esconf_shutdown() in esconf-query
+- Bug #15951: Fix 'esconf_get_error_quark' introspecting warning
 - Remove perl bindings
 - Fix vala binding in dist tarball
 - Translation Updates: be, da, el, es, he, hr, hu, hye, gl, nl,
@@ -34,7 +34,7 @@
 4.14.1
 ======
 
-Release rebuild for libxfconf-0.deps
+Release rebuild for libesconf-0.deps
 
 4.14.0
 ======
@@ -53,7 +53,7 @@ Release rebuild for libxfconf-0.deps
 4.13.7
 ======
 - Bump glib version
-- Bug #15122: xfconf: disable gsettings backend by default
+- Bug #15122: esconf: disable gsettings backend by default
 - Fix compiler error -Wcast-function-type (GCC 8)
 - Fix this use of "defined" may not be portable
 - Update .gitignore
@@ -75,15 +75,15 @@ Release rebuild for libxfconf-0.deps
 
 4.13.4
 ======
-- Fix segfault in xfconf_cache_set_property_reply_handler when
+- Fix segfault in esconf_cache_set_property_reply_handler when
   multiple calls are made (bug #13825)
 - Allow to store empty arrays (bug #13791)
-- Fix a path in xfconf_cache_set where the mutex isn't locked (bug #13790)
+- Fix a path in esconf_cache_set where the mutex isn't locked (bug #13790)
 
 4.13.3
 ======
-- Flush gdbus connection on xfconf_shutdown
-- Correctly use xfconf_shutdown in xfconf-query
+- Flush gdbus connection on esconf_shutdown
+- Correctly use esconf_shutdown in esconf-query
 - Check for invalid GPtrArrays in the conversion
   from GValue to GVariant.
 - Fix some build issues in AM subdir-objects
@@ -97,13 +97,13 @@ Release rebuild for libxfconf-0.deps
 
 4.13.1
 ======
-- Revert the bump of libxfconf version from 0 to 1,
+- Revert the bump of libesconf version from 0 to 1,
   to avoid massive changes in all xfce's components.
 
 4.13.0
 ======
-- Port xfconf to gdbus
-- Bump libxfconf version from 0 to 1.
+- Port esconf to gdbus
+- Bump libesconf version from 0 to 1.
 
 4.12.1
 ======
@@ -138,8 +138,8 @@ Release rebuild for libxfconf-0.deps
 4.9.1
 =====
 - Use LT_PREREQ and LT_INIT.
-- UTF-8 check xfconf strings.
-- Do not dup strings in xfconf_channel_set_string.
+- UTF-8 check esconf strings.
+- Do not dup strings in esconf_channel_set_string.
 - Bump package dependency versions.
 - Fix comment in perl package info (bug #8661).
 - Don't use deprecated g_value_set_char (bug #8690).
@@ -149,16 +149,16 @@ Release rebuild for libxfconf-0.deps
 4.9.0
 =====
 - Use sh as interpreter in tests.
-- Add hook to skip the xfconf tests.
+- Add hook to skip the esconf tests.
 - Make the abicheck work on Solaris and PPC64 (bug #7416).
 - Fix licenses and use new FSF address.
 - Fix compiler warnings on Solaris.
 - Avoid GCC 4.6 compiler warning.
-- Add toggle option to xfconf-query.
-- Remove unusable import and export options from xfconf-query.
-- Translate all error strings in xfconf-query.
+- Add toggle option to esconf-query.
+- Remove unusable import and export options from esconf-query.
+- Translate all error strings in esconf-query.
 - Cleanup Makefile.am files a bit.
-- Improve --version output in xfconf-query.
+- Improve --version output in esconf-query.
 - Cleanup #includes.
 - Drop usage of the G_CONST_RETURN macro.
 - Translation updates: ar, ast, bn, ca, cs, da, de, el, en_GB, es,
@@ -194,7 +194,7 @@ Release rebuild for libxfconf-0.deps
 - Add doc module to fixxref options (bug #6304).
 - Link the gtkdoc scanner to GObject and Glib (bug #6407).
 - Check for perl outside bindings option for alias script (bug #6481).
-- Move xfconfd from $libexecdir to $libdir.
+- Move esconfd from $libexecdir to $libdir.
 - Updated translations: kk, bn, uk, si, it, sk, fr, id, zh_TW, de.
 
 
@@ -225,7 +225,7 @@ Release rebuild for libxfconf-0.deps
 
 4.7.0
 =====
-- Add prefetching and caching support to XfconfChannel. Should speed
+- Add prefetching and caching support to EsconfChannel. Should speed
   things up a bit on app startup, and avoid blocking waiting on DBus
   in other cases.
 - New simpler (internal) handling of property bindings.
@@ -249,21 +249,21 @@ Release rebuild for libxfconf-0.deps
 
 4.6.0
 =====
-- Remove unimplemented --import and --export functions from xfconf-query
-- Fix encoding bug with xfconf-query input (Bug #4622)
+- Remove unimplemented --import and --export functions from esconf-query
+- Fix encoding bug with esconf-query input (Bug #4622)
 - Updated translations: ba, ca, cs, da, de, en_GB, es, fr, gl, hu, id, it, ja,
   nb, pl, pt_PT, sv, tr, zh_CN
 
 
 4.5.99.1
 ========
-- Don't translate "true" and "false" in the xfconf-query output.
+- Don't translate "true" and "false" in the esconf-query output.
 - Updated translations (cs, da, fi, fr, nl, pt_BR, sv, zh_CN)
 
 
 4.5.93
 ======
-- Install xfconfd to $(libexecdir) instead of $(bindir).
+- Install esconfd to $(libexecdir) instead of $(bindir).
 - Fix perl bindings link order on Cygwin (bug 4735).
 - Allow passing arbitrary options to the perl bindings' Makefile.PL
   generation script (bug 4735).
@@ -275,18 +275,18 @@ Release rebuild for libxfconf-0.deps
 
 4.5.92
 ======
-- Add xfconf_channel_new_with_property_base() to restrict a channel
+- Add esconf_channel_new_with_property_base() to restrict a channel
   to a subset of the property tree.
-- Add a dbus message filter to xfconfd that catches dbus daemon
-  disconnect signals and flushes channels before xfconfd gets
+- Add a dbus message filter to esconfd that catches dbus daemon
+  disconnect signals and flushes channels before esconfd gets
   killed (bug 4487).
-- Change libxfconf GObject bindings API slightly to use gulong IDs
+- Change libesconf GObject bindings API slightly to use gulong IDs
   for each binding to be used when removing bindings.  Extend the
   unbind functions a bit.
-- Bump libxfconf interface version due to incompatible change.
-- Add libxfconf perl bindings.
-- Remove xfconf_channel_remove_property() and
-  xfconf_channel_remove_properties().
+- Bump libesconf interface version due to incompatible change.
+- Add libesconf perl bindings.
+- Remove esconf_channel_remove_property() and
+  esconf_channel_remove_properties().
 - Only treat the XML file under $XDG_CONFIG_HOME as a "user" file,
   and treat all others as system files.  This fixes the problem where
   Xfce-installed defaults get read *after* the user's config when
@@ -298,18 +298,18 @@ Release rebuild for libxfconf-0.deps
 4.5.91
 ======
 - Remove xfsettingsd (moved to xfce4-settings package).  This removes
-  xfconf's gtk+ dependency entirely.
-- Add xfconf_channel_get() which returns an XfconfChannel singleton
-  object that lives until calling xfconf_shutdown().
-- Add xfconf_channel_reset_property(), which is a replacement for the
+  esconf's gtk+ dependency entirely.
+- Add esconf_channel_get() which returns an EsconfChannel singleton
+  object that lives until calling esconf_shutdown().
+- Add esconf_channel_reset_property(), which is a replacement for the
   'remove' functions.  This more accurately describes what 'remove'
   actually does in the presence of locked properties and/or properties
   that have system-wide defaults.
-- Deprecate xfconf_channel_remove_property() and
-  xfconf_channel_remove_properties().
+- Deprecate esconf_channel_remove_property() and
+  esconf_channel_remove_properties().
 - Change D-Bus interface to reflect above two changes.
 - Add IsPropertyLocked() to the D-Bus interface, as well as a
-  corresponding xfconf_channel_is_property_locked() libxfconf function,
+  corresponding esconf_channel_is_property_locked() libesconf function,
   which allows clients to query whether or not a property can be
   modified.
 - Don't send out a PropertyChange signal if a property is set to the
@@ -317,15 +317,15 @@ Release rebuild for libxfconf-0.deps
 - Fix daemon crash when resetting properties recursively.
 - Fix daemon sending incorrect property names in the PropertyRemoved
   signal when removing multiple properties at once.
-- For GObject property bindings, if the bound xfconf property is
+- For GObject property bindings, if the bound esconf property is
   removed from the config store, try to reset the GObject property
   to the default value specified in its GParamSpec.
-- Add -R option to xfconf-query which causes the -r option (reset) to
+- Add -R option to esconf-query which causes the -r option (reset) to
   operate recursively to include all properties under the specified
   property.
-- Add -a option to xfconf-query which forces setting a property as an
+- Add -a option to esconf-query which forces setting a property as an
   array even if the array only has one element.
-- Fix xfconf_channel_get_property() so it properly converts the value
+- Fix esconf_channel_get_property() so it properly converts the value
   fetched from the config store into the type that the caller
   requested (if any).
 

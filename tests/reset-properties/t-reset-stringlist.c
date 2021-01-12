@@ -1,5 +1,5 @@
 /*
- *  xfconf
+ *  esconf
  *
  *  Copyright (c) 2007 Brian Tarricone <bjt23@cornell.edu>
  *
@@ -23,20 +23,20 @@ int
 main(int argc,
      char **argv)
 {
-    XfconfChannel *channel;
+    EsconfChannel *channel;
     
-    if(!xfconf_tests_start())
+    if(!esconf_tests_start())
         return 1;
     
-    channel = xfconf_channel_new(TEST_CHANNEL_NAME);
+    channel = esconf_channel_new(TEST_CHANNEL_NAME);
     
-    TEST_OPERATION(xfconf_channel_has_property(channel, test_strlist_property));
-    xfconf_channel_reset_property(channel, test_strlist_property, FALSE);
-    TEST_OPERATION(!xfconf_channel_has_property(channel, test_strlist_property));
+    TEST_OPERATION(esconf_channel_has_property(channel, test_strlist_property));
+    esconf_channel_reset_property(channel, test_strlist_property, FALSE);
+    TEST_OPERATION(!esconf_channel_has_property(channel, test_strlist_property));
     
     g_object_unref(G_OBJECT(channel));
     
-    xfconf_tests_end();
+    esconf_tests_end();
     
     return 0;
 }

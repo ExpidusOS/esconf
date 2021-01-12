@@ -1,4 +1,4 @@
-The Xfconf daemon supports a so-called "kiosk mode" or "lockdown mode"
+The Esconf daemon supports a so-called "kiosk mode" or "lockdown mode"
 such that certain configuration properties or certain channels can be
 locked from user modification.  In this case, the locked values are
 provided by a system administrator in the form of a settings file (in

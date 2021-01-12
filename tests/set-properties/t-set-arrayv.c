@@ -1,5 +1,5 @@
 /*
- *  xfconf
+ *  esconf
  *
  *  Copyright (c) 2007 Brian Tarricone <bjt23@cornell.edu>
  *
@@ -23,12 +23,12 @@ int
 main(int argc,
      char **argv)
 {
-    XfconfChannel *channel;
+    EsconfChannel *channel;
     
-    if(!xfconf_tests_start())
+    if(!esconf_tests_start())
         return 1;
     
-    channel = xfconf_channel_new(TEST_CHANNEL_NAME);
+    channel = esconf_channel_new(TEST_CHANNEL_NAME);
     
     {
         GPtrArray *arr = g_ptr_array_sized_new(3);
@@ -49,15 +49,15 @@ main(int argc,
         g_value_set_static_string(val, "test string");
         g_ptr_array_add(arr, val);
         
-        TEST_OPERATION(xfconf_channel_set_arrayv(channel, test_array_property,
+        TEST_OPERATION(esconf_channel_set_arrayv(channel, test_array_property,
                                                  arr));
         
-        xfconf_array_free(arr);
+        esconf_array_free(arr);
     }
     
     g_object_unref(G_OBJECT(channel));
     
-    xfconf_tests_end();
+    esconf_tests_end();
     
     return 0;
 }

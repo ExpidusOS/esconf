@@ -1,5 +1,5 @@
 /*
- *  xfconf
+ *  esconf
  *
  *  Copyright (c) 2008 Brian Tarricone <bjt23@cornell.edu>
  *
@@ -26,16 +26,16 @@ main(int argc,
     gchar **channels;
     gint i;
     
-    if(!xfconf_tests_start())
+    if(!esconf_tests_start())
         return 1;
     
-    TEST_OPERATION((channels = xfconf_list_channels()));
+    TEST_OPERATION((channels = esconf_list_channels()));
 
     for(i = 0; channels[i]; ++i)
         g_print("Channel %d: %s\n", i, channels[i]);
     TEST_OPERATION((i == 1));
     
-    xfconf_tests_end();
+    esconf_tests_end();
     
     return 0;
 }

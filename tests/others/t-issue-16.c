@@ -1,5 +1,5 @@
 /*
- *  xfconf
+ *  esconf
  *
  *  Copyright (c) 2020 cryptogopher
  *
@@ -22,25 +22,25 @@
 int
 main(int argc, char **argv)
 {
-  XfconfChannel *channel;
+  EsconfChannel *channel;
 
-  if(!xfconf_tests_start())
+  if(!esconf_tests_start())
     return 1;
 
   /* Generate at least one asynchronous set_property call to trigger
    * asynchronous callback execution. Because removal of the channel directly
    * follows and callback will only be invoked after control returns to main
    * loop - callback will be executed with dangling pointer to
-   * XfconfCacheOldItem. */
-  channel = xfconf_channel_new(TEST_CHANNEL_NAME);
-  xfconf_channel_reset_property (channel, test_int_property, FALSE);
-  TEST_OPERATION(xfconf_channel_set_int(channel, test_int_property, test_int));
+   * EsconfCacheOldItem. */
+  channel = esconf_channel_new(TEST_CHANNEL_NAME);
+  esconf_channel_reset_property (channel, test_int_property, FALSE);
+  TEST_OPERATION(esconf_channel_set_int(channel, test_int_property, test_int));
   g_object_unref(G_OBJECT(channel));
 
   while (g_main_context_pending(NULL))
     g_main_context_iteration(NULL, FALSE);
 
-  xfconf_tests_end();
+  esconf_tests_end();
 
   return 0;
 }

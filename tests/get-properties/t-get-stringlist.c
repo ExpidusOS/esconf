@@ -1,5 +1,5 @@
 /*
- *  xfconf
+ *  esconf
  *
  *  Copyright (c) 2007 Brian Tarricone <bjt23@cornell.edu>
  *
@@ -27,21 +27,21 @@ int
 main(int argc,
      char **argv)
 {
-    XfconfChannel *channel;
+    EsconfChannel *channel;
     
-    if(!xfconf_tests_start())
+    if(!esconf_tests_start())
         return 1;
     
-    channel = xfconf_channel_new(TEST_CHANNEL_NAME);
+    channel = esconf_channel_new(TEST_CHANNEL_NAME);
     
     {
-        gchar **strlist = xfconf_channel_get_string_list(channel,
+        gchar **strlist = esconf_channel_get_string_list(channel,
                                                          test_strlist_property);
         gint i;
         
         if(!strlist) {
-            g_critical("Test failed: xfconf_channel_get_string_list() returned NULL");
-            xfconf_tests_end();
+            g_critical("Test failed: esconf_channel_get_string_list() returned NULL");
+            esconf_tests_end();
             return 1;
         }
         
@@ -49,7 +49,7 @@ main(int argc,
             if(strcmp(strlist[i], test_strlist[i])) {
                 g_critical("Test failed: string list values don't match (%s != %s)",
                            strlist[i], test_strlist[i]);
-                xfconf_tests_end();
+                esconf_tests_end();
                 return 1;
             }
         }
@@ -57,7 +57,7 @@ main(int argc,
         if(strlist[i] || test_strlist[i]) {
             g_critical("Test failed: in string list, element %d should be NULL (0x%p, 0x%p)",
                        i, strlist[i], test_strlist[i]);
-            xfconf_tests_end();
+            esconf_tests_end();
             return 1;
         }
         
@@ -66,7 +66,7 @@ main(int argc,
     
     g_object_unref(G_OBJECT(channel));
     
-    xfconf_tests_end();
+    esconf_tests_end();
     
     return 0;
 }

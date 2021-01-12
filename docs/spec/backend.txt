@@ -1,17 +1,17 @@
-Xfconf Backends
+Esconf Backends
 ---------------
 
-Xfconf backends act as the actual configuration store.  A backend might
+Esconf backends act as the actual configuration store.  A backend might
 write flat files to disk, XML files to disk, rows to a relational
 database, entries to an LDAP server, or any other possible mechanism
 desired to persistently store the data.
 
-A backend must implement the XfconfBackend interface, which is described
+A backend must implement the EsconfBackend interface, which is described
 in the API documentation.
 
 The backend will have to deal with a variety of data types.  While some
 of these types are wrapped directly in the client library (e.g.,
-xfconf_channel_set_uint64()), users of the library can also set other,
+esconf_channel_set_uint64()), users of the library can also set other,
 semi-arbitrary types, as well as array types.
 
 So, the backend must, be able to understand the following GTypes:
@@ -29,7 +29,7 @@ G_TYPE_BOOLEAN
 
 Note about 16-bit values: dbus-glib does not support sending 16-bit signed
 and unsigned integers over D-Bus, even though libdbus does.  For convenience,
-libxfconf will take any 16-bit values it receives and convert them into
+libesconf will take any 16-bit values it receives and convert them into
 32-bit values before sending them to the daemon.  From the daemon/backend
 point of view, 16-bit values are simply not supported.
 

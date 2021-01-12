@@ -1,79 +1,79 @@
 
 AM_CPPFLAGS = \
 	-I$(top_srcdir) \
-	-DLIBXFCONF_COMPILATION \
-	-DG_LOG_DOMAIN=\"xfconf-common\" \
+	-DLIBESCONF_COMPILATION \
+	-DG_LOG_DOMAIN=\"esconf-common\" \
 	$(PLATFORM_CPPFLAGS)
 
 noinst_LTLIBRARIES = \
-	libxfconf-common.la \
-	libxfconf-gvaluefuncs.la \
-	libxfconf-dbus.la
+	libesconf-common.la \
+	libesconf-gvaluefuncs.la \
+	libesconf-dbus.la
 
-libxfconf_common_la_SOURCES = \
-	xfconf-errors.c \
-	xfconf-marshal.c \
-	xfconf-marshal.h
+libesconf_common_la_SOURCES = \
+	esconf-errors.c \
+	esconf-marshal.c \
+	esconf-marshal.h
 
-libxfconf_common_la_CFLAGS = \
+libesconf_common_la_CFLAGS = \
 	$(GLIB_CFLAGS) \
 	$(PLATFORM_CFLAGS)
 
-libxfconf_common_la_LDFLAGS = \
+libesconf_common_la_LDFLAGS = \
 	$(PLATFORM_LDFLAGS)
 
-libxfconf_common_la_LIBADD = \
+libesconf_common_la_LIBADD = \
 	$(GLIB_LIBS)
 
-libxfconf_built_sources = \
-	xfconf-alias.h \
-	xfconf-aliasdef.c
+libesconf_built_sources = \
+	esconf-alias.h \
+	esconf-aliasdef.c
 
-libxfconf_gvaluefuncs_la_SOURCES = \
-	xfconf-gvaluefuncs.c \
-	xfconf-gvaluefuncs.h
+libesconf_gvaluefuncs_la_SOURCES = \
+	esconf-gvaluefuncs.c \
+	esconf-gvaluefuncs.h
 
-libxfconf_gvaluefuncs_la_CFLAGS = \
+libesconf_gvaluefuncs_la_CFLAGS = \
 	$(GLIB_CFLAGS) \
 	$(GIO_UNIX_CFLAGS) \
 	$(PLATFORM_CFLAGS)
 
-libxfconf_gvaluefuncs_la_LDFLAGS = \
+libesconf_gvaluefuncs_la_LDFLAGS = \
 	$(PLATFORM_LDFLAGS)
 
-libxfconf_gvaluefuncs_la_LIBADD = \
+libesconf_gvaluefuncs_la_LIBADD = \
 	$(GLIB_LIBS) \
 	$(GIO_UNIX_LIBS)
 
 
-libxfconf_dbus_la_SOURCES = \
-	xfconf-gdbus-bindings.c \
-	xfconf-gdbus-bindings.h
+libesconf_dbus_la_SOURCES = \
+	esconf-gdbus-bindings.c \
+	esconf-gdbus-bindings.h
 
-libxfconf_dbus_la_CFLAGS = $(GIO_UNIX_CFLAGS)
+libesconf_dbus_la_CFLAGS = $(GIO_UNIX_CFLAGS)
 
-libxfconf_dbus_la_LIBADD = $(GIO_UNIX_LIBS)
+libesconf_dbus_la_LIBADD = $(GIO_UNIX_LIBS)
 	
 
 BUILT_SOURCES = \
-	xfconf-marshal.c \
-	xfconf-marshal.h \
-	xfconf-gdbus-bindings.c \
-	xfconf-gdbus-bindings.h
+	esconf-marshal.c \
+	esconf-marshal.h \
+	esconf-gdbus-bindings.c \
+	esconf-gdbus-bindings.h
 
-xfconf-marshal.h: $(srcdir)/xfconf-marshal.list Makefile
-	$(AM_V_GEN) glib-genmarshal --prefix=_xfconf_marshal $(srcdir)/xfconf-marshal.list --header > xfconf-marshal.h
-xfconf-marshal.c: $(srcdir)/xfconf-marshal.list Makefile
-	$(AM_V_GEN) echo '#include "xfconf-marshal.h"' > xfconf-marshal.c \
-	&& glib-genmarshal --prefix=_xfconf_marshal $(srcdir)/xfconf-marshal.list --body >> xfconf-marshal.c
+esconf-marshal.h: $(srcdir)/esconf-marshal.list Makefile
+	$(AM_V_GEN) glib-genmarshal --prefix=_esconf_marshal $(srcdir)/esconf-marshal.list --header > esconf-marshal.h
+esconf-marshal.c: $(srcdir)/esconf-marshal.list Makefile
+	$(AM_V_GEN) echo '#include "esconf-marshal.h"' > esconf-marshal.c \
+	&& glib-genmarshal --prefix=_esconf_marshal $(srcdir)/esconf-marshal.list --body >> esconf-marshal.c
 
-xfconf-gdbus-bindings.h:
-xfconf-gdbus-bindings.c: xfconf-dbus.xml Makefile
+esconf-gdbus-bindings.h:
+esconf-gdbus-bindings.c: esconf-dbus.xml Makefile
 	$(AM_V_GEN) $(GDBUS_CODEGEN) \
-	--interface-prefix org.xfce.Xfconf \
-	--annotate "org.xfce.Xfconf" "org.gtk.GDBus.C.Name" Exported \
-	--c-namespace Xfconf   \
-	--generate-c-code xfconf-gdbus-bindings \
+	--interface-prefix com.expidus.Esconf \
+	--annotate "com.expidus.Esconf" "org.gtk.GDBus.C.Name" Exported \
+	--c-namespace Esconf   \
+	--generate-c-code esconf-gdbus-bindings \
 	$<
 
 CLEANFILES = \
@@ -81,27 +81,27 @@ CLEANFILES = \
 	expected-abi
 
 DISTCLEANFILES = \
-	$(libxfconf_built_sources) \
+	$(libesconf_built_sources) \
 	$(BUILT_SOURCES)
 
 BUILT_SOURCES += \
-	$(libxfconf_built_sources)
+	$(libesconf_built_sources)
 
-xfconf-alias.h: make-exo-alias.pl $(top_srcdir)/xfconf/xfconf.symbols
-	$(AM_V_GEN) $(PERL) $(srcdir)/make-exo-alias.pl <$(top_srcdir)/xfconf/xfconf.symbols >xfconf-alias.h
+esconf-alias.h: make-exo-alias.pl $(top_srcdir)/esconf/esconf.symbols
+	$(AM_V_GEN) $(PERL) $(srcdir)/make-exo-alias.pl <$(top_srcdir)/esconf/esconf.symbols >esconf-alias.h
 
-xfconf-aliasdef.c: make-exo-alias.pl $(top_srcdir)/xfconf/xfconf.symbols
-	$(AM_V_GEN) $(PERL) $(srcdir)/make-exo-alias.pl -def <$(top_srcdir)/xfconf/xfconf.symbols >xfconf-aliasdef.c
+esconf-aliasdef.c: make-exo-alias.pl $(top_srcdir)/esconf/esconf.symbols
+	$(AM_V_GEN) $(PERL) $(srcdir)/make-exo-alias.pl -def <$(top_srcdir)/esconf/esconf.symbols >esconf-aliasdef.c
 
 
 EXTRA_DIST = \
 	make-exo-alias.pl \
-	xfconf-alias.h \
-	xfconf-aliasdef.c \
-	xfconf-common-private.h \
-	xfconf-dbus.xml \
-	xfconf-marshal.list \
-	xfconf-types.c
+	esconf-alias.h \
+	esconf-aliasdef.c \
+	esconf-common-private.h \
+	esconf-dbus.xml \
+	esconf-marshal.list \
+	esconf-types.c
 
 # required for make distcheck
 dist-hook: all

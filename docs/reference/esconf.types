@@ -1,0 +1,5 @@
+#include <esconf/esconf.h>
+#include <esconfd/esconf-backend.h>
+
+esconf_channel_get_type
+esconf_backend_get_type

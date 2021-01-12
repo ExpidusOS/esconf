@@ -2,9 +2,9 @@ ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
 SUBDIRS = \
 	common \
-	xfconf \
-	xfconfd \
-	xfconf-query \
+	esconf \
+	esconfd \
+	esconf-query \
 	po \
 	docs \
 	tests
@@ -13,7 +13,7 @@ if ENABLE_BASH_COMPLETION
 SUBDIRS += completions
 endif
 
-if XFCONF_ENABLE_GSETTINGS_BACKEND
+if ESCONF_ENABLE_GSETTINGS_BACKEND
 SUBDIRS += gsettings-backend
 endif
 

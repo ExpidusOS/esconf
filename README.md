@@ -1,51 +1,51 @@
-[![License](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://gitlab.xfce.org/xfce/xfconf/-/blob/master/COPYING)
+[![License](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://gitlab.xfce.com/expidus/esconf/-/blob/master/COPYING)
 
-# xfconf
+# esconf
 
 
-Xfconf is a hierarchical (tree-like) configuration system where the immediate 
+Esconf is a hierarchical (tree-like) configuration system where the immediate 
 child nodes of the root are called “channels”. All settings beneath the 
 channel nodes are called “properties.”
-See the xfconf homepage for usage and examples.
+See the esconf homepage for usage and examples.
 
 ----
 
 ### Homepage
 
-[Xfconf documentation](https://docs.xfce.org/xfce/xfconf/start)
+[Esconf documentation](https://docs.xfce.com/expidus/esconf/start)
 
 ### Changelog
 
-See [NEWS](https://gitlab.xfce.org/xfce/xfconf/-/blob/master/NEWS) for details on changes and fixes made in the current release.
+See [NEWS](https://gitlab.xfce.com/expidus/esconf/-/blob/master/NEWS) for details on changes and fixes made in the current release.
 
 ### Source Code Repository
 
-[Xfconf source code](https://gitlab.xfce.org/xfce/xfconf)
+[Esconf source code](https://gitlab.xfce.com/expidus/esconf)
 
 ### Download a Release Tarball
 
-[Xfconf archive](https://archive.xfce.org/src/xfce/xfconf)
+[Esconf archive](https://archive.xfce.org/src/xfce/esconf)
     or
-[Xfconf tags](https://gitlab.xfce.org/xfce/xfconf/-/tags)
+[Esconf tags](https://gitlab.xfce.com/expidus/esconf/-/tags)
 
 ### Installation
 
 From source: 
 
-    % cd xfconf
+    % cd esconf
     % ./autogen.sh
     % make
     % make install
 
 From release tarball:
 
-    % tar xf xfconf-<version>.tar.bz2
-    % cd xfconf-<version>
+    % tar xf esconf-<version>.tar.bz2
+    % cd esconf-<version>
     % ./configure
     % make
     % make install
 
 ### Reporting Bugs
 
-Visit the [reporting bugs](https://docs.xfce.org/xfce/xfconf/bugs) page to view currently open bug reports and instructions on reporting new bugs or submitting bugfixes.
+Visit the [reporting bugs](https://docs.xfce.com/expidus/esconf/bugs) page to view currently open bug reports and instructions on reporting new bugs or submitting bugfixes.
 

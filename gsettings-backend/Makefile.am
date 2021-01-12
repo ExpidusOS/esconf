@@ -1,27 +1,27 @@
-giomodule_LTLIBRARIES= libxfconfgsettingsbackend.la
+giomodule_LTLIBRARIES= libesconfgsettingsbackend.la
 
 giomoduledir = $(GIO_MODULE_DIR)
 
-libxfconfgsettingsbackend_la_SOURCES =		\
-	xfconf-giomodule.c			\
-	xfconf-gsettings-backend.c		\
-	xfconf-gsettings-backend.h
+libesconfgsettingsbackend_la_SOURCES =		\
+	esconf-giomodule.c			\
+	esconf-gsettings-backend.c		\
+	esconf-gsettings-backend.h
 
-libxfconfgsettingsbackend_la_CFLAGS =		\
+libesconfgsettingsbackend_la_CFLAGS =		\
 	-I$(top_srcdir) 			\
 	-I$(top_builddir) 			\
 	$(GIO_CFLAGS)				\
 	$(GMODULE_CFLAGS)
 
-libxfconfgsettingsbackend_la_LDFLAGS =		\
+libesconfgsettingsbackend_la_LDFLAGS =		\
 	-export-dynamic				\
 	-avoid-version				\
 	-module 				\
 	-export-symbols-regex "^[^_].*"
 
-libxfconfgsettingsbackend_la_LIBADD =		\
-	$(top_builddir)/xfconf/libxfconf-0.la 	\
-	$(top_builddir)/common/libxfconf-gvaluefuncs.la\
+libesconfgsettingsbackend_la_LIBADD =		\
+	$(top_builddir)/esconf/libesconf-0.la 	\
+	$(top_builddir)/common/libesconf-gvaluefuncs.la\
 	$(GIO_LDFLAGS)				\
 	$(GMODULE_LDFLAGS)
 

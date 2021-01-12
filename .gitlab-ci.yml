@@ -2,7 +2,7 @@ include:
   - project: 'xfce/xfce4-dev-tools'
     file: '/ci/build_project.yml'
 
-# xfconf distcheck needs a working display/dbus to run tests
+# esconf distcheck needs a working display/dbus to run tests
 # Fake it with xvfb on headless container
 distcheck:
   extends: .make

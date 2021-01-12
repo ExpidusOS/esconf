@@ -1,0 +1,111 @@
+/*
+ *  esconf
+ *
+ *  Copyright (c) 2007 Brian Tarricone <bjt23@cornell.edu>
+ *
+ *  This library is free software; you can redistribute it and/or
+ *  modify it under the terms of the GNU Lesser General Public
+ *  License as published by the Free Software Foundation; version 2
+ *  of the License ONLY.
+ *
+ *  This library is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ *  Lesser General Public License for more details.
+ *
+ *  You should have received a copy of the GNU Lesser General Public
+ *  License along with this library; if not, write to the Free Software
+ *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ */
+
+#ifdef ALL_FILES
+#define IN_HEADER(x) 1
+#define IN_SOURCE(x) 1
+#endif
+
+/* esconf.c */
+#if IN_HEADER(__ESCONF_H__)
+#if IN_SOURCE(__ESCONF_C__)
+esconf_init
+esconf_shutdown
+esconf_named_struct_register
+esconf_array_free
+#endif
+#endif
+
+/* esconf-errors.h */
+#if IN_HEADER(__ESCONF_ERRORS_H__)
+#if IN_SOURCE(__ESCONF_ERRORS_C__)
+esconf_error_get_type G_GNUC_CONST
+esconf_get_error_quark
+#endif
+#endif
+
+/* esconf-types.h */
+#if IN_HEADER(__ESCONF_TYPES_H__)
+#if IN_SOURCE(__ESCONF_TYPES_C__)
+esconf_uint16_get_type G_GNUC_CONST
+esconf_g_value_get_uint16
+esconf_g_value_set_uint16
+esconf_int16_get_type G_GNUC_CONST
+esconf_g_value_get_int16
+esconf_g_value_set_int16
+#endif
+#endif
+
+/* esconf-channel.h */
+#if IN_HEADER(__ESCONF_CHANNEL_H__)
+#if IN_SOURCE(__ESCONF_CHANNEL_C__)
+esconf_channel_get_type G_GNUC_CONST
+esconf_channel_get
+esconf_channel_new
+esconf_channel_new_with_property_base
+esconf_channel_has_property
+esconf_channel_is_property_locked
+esconf_channel_reset_property
+esconf_channel_get_properties
+esconf_channel_get_string
+esconf_channel_set_string
+esconf_channel_get_int
+esconf_channel_set_int
+esconf_channel_get_uint
+esconf_channel_set_uint
+esconf_channel_get_uint64
+esconf_channel_set_uint64
+esconf_channel_get_double
+esconf_channel_set_double
+esconf_channel_get_bool
+esconf_channel_set_bool
+esconf_channel_get_string_list
+esconf_channel_set_string_list
+esconf_channel_get_property
+esconf_channel_set_property
+esconf_channel_get_array
+esconf_channel_get_array_valist
+esconf_channel_get_arrayv
+esconf_channel_set_array
+esconf_channel_set_array_valist
+esconf_channel_set_arrayv
+esconf_channel_get_named_struct
+esconf_channel_set_named_struct
+esconf_channel_get_struct
+esconf_channel_get_struct_valist
+esconf_channel_get_structv
+esconf_channel_set_struct
+esconf_channel_set_struct_valist
+esconf_channel_set_structv
+esconf_list_channels
+#endif
+#endif
+
+/* esconf-binding.h */
+#if IN_HEADER(__ESCONF_BINDING_H__)
+#if IN_SOURCE(__ESCONF_BINDING_C__)
+esconf_g_property_bind
+esconf_g_property_unbind
+esconf_g_property_unbind_by_property
+esconf_g_property_unbind_all
+esconf_g_property_bind_gdkcolor
+esconf_g_property_bind_gdkrgba
+#endif
+#endif

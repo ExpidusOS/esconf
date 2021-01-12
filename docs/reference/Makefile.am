@@ -3,13 +3,13 @@
 AUTOMAKE_OPTIONS = 1.8
 
 # The name of the module.
-DOC_MODULE=xfconf
+DOC_MODULE=esconf
 
 # The top-level SGML file.
 DOC_MAIN_SGML_FILE=$(DOC_MODULE)-docs.xml
 
 # Extra options to supply to gtkdoc-scan
-SCAN_OPTIONS=--deprecated-guards="XFCONF_DISABLE_DEPRECATED"
+SCAN_OPTIONS=--deprecated-guards="ESCONF_DISABLE_DEPRECATED"
 
 # The directory containing the source code. Relative to $(srcdir)
 DOC_SOURCE_DIR=../..
@@ -22,24 +22,24 @@ FIXXREF_OPTIONS=--module=$(DOC_MODULE)
 
 # Used for dependencies
 HFILE_GLOB = \
-	$(top_srcdir)/xfconf/*.h \
-	$(top_srcdir)/xfconfd/*.h
+	$(top_srcdir)/esconf/*.h \
+	$(top_srcdir)/esconfd/*.h
 CFILE_GLOB = \
-	$(top_srcdir)/xfconf/*.c \
-	$(top_srcdir)/xfconfd/*.c \
-	$(top_srcdir)/common/xfconf-errors.c
+	$(top_srcdir)/esconf/*.c \
+	$(top_srcdir)/esconfd/*.c \
+	$(top_srcdir)/common/esconf-errors.c
 
 # Header files to ignore when scanning
 IGNORE_HFILES= \
 	config.h \
-	xfconf-backend-factory.h \
-	xfconf-backend-perchannel-xml.h \
-	xfconf-daemon.h \
-	xfconf-gdbus-bindings.h \
-	xfconf-gdbus-bindings.c \
-	xfconf-marshal.h \
-	xfconf-private.h \
-	xfconf-common-private.h
+	esconf-backend-factory.h \
+	esconf-backend-perchannel-xml.h \
+	esconf-daemon.h \
+	esconf-gdbus-bindings.h \
+	esconf-gdbus-bindings.c \
+	esconf-marshal.h \
+	esconf-private.h \
+	esconf-common-private.h
 
 # Extra files to add when scanning (relative to $srcdir)
 EXTRA_HFILES=
@@ -62,8 +62,8 @@ AM_CPPFLAGS = \
 	$(GTK_DOC_EXTRA_CFLAGS)
 
 GTKDOC_LIBS = \
-	$(top_builddir)/xfconf/libxfconf-$(LIBXFCONF_VERSION_API).la \
-	$(top_builddir)/xfconfd/xfconfd-xfconf-backend.o \
+	$(top_builddir)/esconf/libesconf-$(LIBESCONF_VERSION_API).la \
+	$(top_builddir)/esconfd/esconfd-esconf-backend.o \
 	$(GLIB_LIBS) \
 	$(GOBJECT_LIBS)
 

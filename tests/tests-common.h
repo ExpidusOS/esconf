@@ -1,5 +1,5 @@
 /*
- *  xfconf
+ *  esconf
  *
  *  Copyright (c) 2007 Brian Tarricone <bjt23@cornell.edu>
  *
@@ -17,8 +17,8 @@
  *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#ifndef __XFCONF_TESTS_COMMON_H__
-#define __XFCONF_TESTS_COMMON_H__
+#ifndef __ESCONF_TESTS_COMMON_H__
+#define __ESCONF_TESTS_COMMON_H__
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>
@@ -42,7 +42,7 @@
 
 #include <glib.h>
 #include <gio/gio.h>
-#include <xfconf/xfconf.h>
+#include <esconf/esconf.h>
 
 #define TEST_CHANNEL_NAME  "test-channel"
 #define WAIT_TIMEOUT       15
@@ -50,7 +50,7 @@
 #define TEST_OPERATION(x) G_STMT_START{ \
     if(!(x)) { \
         g_critical("Test failed: " # x); \
-        xfconf_tests_end(); \
+        esconf_tests_end(); \
         return 1; \
     } \
 }G_STMT_END
@@ -71,26 +71,26 @@ const gchar *test_bool_property = "/test/booltest/bool";
 const gboolean test_bool = TRUE;
 const gchar *test_array_property = "/test/arrayprop";
 
-static void xfconf_tests_end();
+static void esconf_tests_end();
 
 static gboolean
-xfconf_tests_start(void)
+esconf_tests_start(void)
 {
     GDBusConnection *conn;
     GDBusMessage *msg, *ret;
     GTimeVal start, now;
     GError *error = NULL;
 
-    /* wait until xfconfd finishes starting */
+    /* wait until esconfd finishes starting */
     conn = g_bus_get_sync (G_BUS_TYPE_SESSION, NULL, &error);
     if(!conn) {
         g_critical("Failed to connect to D-Bus: %s", error->message);
         g_error_free (error);
-        xfconf_tests_end();
+        esconf_tests_end();
         return FALSE;
     }
-    msg = g_dbus_message_new_method_call("org.xfce.XfconfTest",
-                                         "/org/xfce/Xfconf",
+    msg = g_dbus_message_new_method_call("com.expidus.EsconfTest",
+                                         "/com/expidus/Esconf",
                                          "org.freedesktop.DBus.Peer",
                                          "Ping");
     g_get_current_time(&start);
@@ -101,27 +101,27 @@ xfconf_tests_start(void)
     {
         g_get_current_time(&now);
         if(now.tv_sec - start.tv_sec > WAIT_TIMEOUT) {
-            g_critical("xfconfd failed to start after %d seconds", WAIT_TIMEOUT);
+            g_critical("esconfd failed to start after %d seconds", WAIT_TIMEOUT);
             g_object_unref (msg);
-            xfconf_tests_end();
+            esconf_tests_end();
             return FALSE;
         }
     }
     if (g_dbus_message_get_message_type(ret) != G_DBUS_MESSAGE_TYPE_METHOD_RETURN)
     {
-        g_critical("xfconfd is not running and can not be autostarted");
+        g_critical("esconfd is not running and can not be autostarted");
         g_object_unref (msg);
         g_object_unref (ret);
-        xfconf_tests_end();
+        esconf_tests_end();
         return FALSE;
     }
     g_object_unref (msg);
     g_object_unref (ret);
 
-    if(!xfconf_init(&error)) {
-        g_critical("Failed to init libxfconf: %s", error->message);
+    if(!esconf_init(&error)) {
+        g_critical("Failed to init libesconf: %s", error->message);
         g_error_free(error);
-        xfconf_tests_end();
+        esconf_tests_end();
         return FALSE;
     }
     
@@ -129,9 +129,9 @@ xfconf_tests_start(void)
 }
 
 static void
-xfconf_tests_end(void)
+esconf_tests_end(void)
 {
-    xfconf_shutdown();
+    esconf_shutdown();
 }
 
-#endif  /* __XFCONF_TESTS_COMMON_H__ */
+#endif  /* __ESCONF_TESTS_COMMON_H__ */

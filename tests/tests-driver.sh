@@ -14,29 +14,29 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-XFCONFD_DIR=$1
+ESCONFD_DIR=$1
 TEST=$2
-XFCONFD=$XFCONFD_DIR/xfconfd
+ESCONFD=$ESCONFD_DIR/esconfd
 
-XFCONF_RUN_IN_TEST_MODE=1; export XFCONF_RUN_IN_TEST_MODE;
+ESCONF_RUN_IN_TEST_MODE=1; export ESCONF_RUN_IN_TEST_MODE;
 
-exec_xfconfd()
+exec_esconfd()
 {
-	rm $XFCONFD_DIR/.xfconfd-test-pid >/dev/null 2>&1
-	rm $XFCONFD_DIR/.xfconfd-sum >/dev/null 2>&1
+	rm $ESCONFD_DIR/.esconfd-test-pid >/dev/null 2>&1
+	rm $ESCONFD_DIR/.esconfd-sum >/dev/null 2>&1
 
-	exec ${XFCONFD} &
-	echo $! > $XFCONFD_DIR/.xfconfd-test-pid
-	pid=`cat $XFCONFD_DIR/.xfconfd-test-pid`
-	sum $XFCONFD > $XFCONFD_DIR/.xfconfd-sum
+	exec ${ESCONFD} &
+	echo $! > $ESCONFD_DIR/.esconfd-test-pid
+	pid=`cat $ESCONFD_DIR/.esconfd-test-pid`
+	sum $ESCONFD > $ESCONFD_DIR/.esconfd-sum
 }
 
 cleanup()
 {
-	pid=`cat $XFCONFD_DIR/.xfconfd-test-pid`
+	pid=`cat $ESCONFD_DIR/.esconfd-test-pid`
 
-	rm $XFCONFD_DIR/.xfconfd-test-pid >/dev/null 2>&1
-	rm $XFCONFD_DIR/.xfconfd-sum >/dev/null 2>&1
+	rm $ESCONFD_DIR/.esconfd-test-pid >/dev/null 2>&1
+	rm $ESCONFD_DIR/.esconfd-sum >/dev/null 2>&1
 
 	while kill -0 $pid >/dev/null 2>&1; do
 		kill -s TERM $pid >/dev/null 2>&1
@@ -46,32 +46,32 @@ cleanup()
 
 prepare()
 {
-	if [ ! -f $XFCONFD ]; then
+	if [ ! -f $ESCONFD ]; then
 		exit 1
 	fi
 
-	# Start xfconfd only if it is not started already
-	if [ ! -f $XFCONFD_DIR/.xfconfd-test-pid ]; then
-		exec_xfconfd
-	elif [ ! -f $XFCONFD_DIR/.xfconfd-sum ]; then
+	# Start esconfd only if it is not started already
+	if [ ! -f $ESCONFD_DIR/.esconfd-test-pid ]; then
+		exec_esconfd
+	elif [ ! -f $ESCONFD_DIR/.esconfd-sum ]; then
 		cleanup
-		exec_xfconfd
+		exec_esconfd
 	else
-		oldsum=`cat $XFCONFD_DIR/.xfconfd-sum`
-		newsum=`sum ${XFCONFD}`
+		oldsum=`cat $ESCONFD_DIR/.esconfd-sum`
+		newsum=`sum ${ESCONFD}`
 
-		# Did xfconfd changes ?
+		# Did esconfd changes ?
 		if [ "$newsum" != "$oldsum" ]; then
 			cleanup
-			exec_xfconfd
+			exec_esconfd
 		else
-			pid=`cat $XFCONFD_DIR/.xfconfd-test-pid`
+			pid=`cat $ESCONFD_DIR/.esconfd-test-pid`
 			kill -s 0 $pid >/dev/null 2>&1
 
 			# Is it still running ?
 			if [ $? != 0 ]; then
 				cleanup
-				exec_xfconfd
+				exec_esconfd
 			fi
 		fi
 	fi
@@ -92,7 +92,7 @@ if [ "$TEST_NAME" = "t-tests-end" ]; then
 	cleanup
 	exit 0
 fi
-# Prepare xfconfd
+# Prepare esconfd
 prepare
 
 $TEST

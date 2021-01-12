@@ -1,4 +1,4 @@
-XfconfBackendPerchannelXml file format, version 1.0
+EsconfBackendPerchannelXml file format, version 1.0
 
 -> High-level overview:
 
@@ -29,7 +29,7 @@ XfconfBackendPerchannelXml file format, version 1.0
 -> File locations:
 
    Per-channel XML files can be located in any of the $XDG_CONFIG_DIRS,
-   under the subdirectory "xfce4/xfconf/xfce-perchannel-xml/".  The
+   under the subdirectory "xfce4/esconf/xfce-perchannel-xml/".  The
    user's own settings are saved in $XDG_CONFIG_HOME, under the same
    subdirectory.
 
@@ -93,7 +93,7 @@ XfconfBackendPerchannelXml file format, version 1.0
    /HappyApp/history
    
    (These strings, minus the channel name part at the beginning, are what
-   you'd look up if using libxfconf to retrieve property values.)
+   you'd look up if using libesconf to retrieve property values.)
 
 
 -> Locking/Kiosk mode:

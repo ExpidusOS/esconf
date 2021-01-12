@@ -15,7 +15,7 @@
 
 .NOTPARALLEL:
 
-LOG_COMPILER = $(top_srcdir)/tests/tests-driver.sh $(top_builddir)/xfconfd
+LOG_COMPILER = $(top_srcdir)/tests/tests-driver.sh $(top_builddir)/esconfd
 
 TESTS = $(check_PROGRAMS)
 
@@ -26,5 +26,5 @@ AM_CFLAGS = \
 	$(GIO_UNIX_CFLAGS)
 
 LIBS = $(GIO_UNIX_LIBS) \
-	$(top_builddir)/xfconf/libxfconf-$(LIBXFCONF_VERSION_API).la
+	$(top_builddir)/esconf/libesconf-$(LIBESCONF_VERSION_API).la
 
