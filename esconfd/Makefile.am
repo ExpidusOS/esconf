@@ -35,7 +35,7 @@ esconfd_CFLAGS = \
 	$(GLIB_CFLAGS) \
 	$(GTHREAD_CFLAGS) \
 	$(GIO_UNIX_CFLAGS) \
-	$(LIBXFCE4UTIL_CFLAGS) \
+	$(LIBEXPIDUS1UTIL_CFLAGS) \
 	$(PLATFORM_CFLAGS)
 
 esconfd_LDFLAGS = \
@@ -52,7 +52,7 @@ esconfd_LDADD = \
 	$(GLIB_LIBS) \
 	$(GTHREAD_LIBS) \
 	$(GIO_UNIX_LIBS) \
-	$(LIBXFCE4UTIL_LIBS)
+	$(LIBEXPIDUS1UTIL_LIBS)
 
 servicedir = $(datadir)/dbus-1/services
 service_in_files = com.expidus.Esconf.service.in

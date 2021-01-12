@@ -24,7 +24,7 @@
 
 #include <string.h>
 
-#include <libxfce4util/libxfce4util.h>
+#include <libexpidus1util/libexpidus1util.h>
 
 #include "esconf-daemon.h"
 #include "esconf-backend-factory.h"

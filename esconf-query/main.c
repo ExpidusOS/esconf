@@ -48,7 +48,7 @@
 
 #include <glib.h>
 
-#include <libxfce4util/libxfce4util.h>
+#include <libexpidus1util/libexpidus1util.h>
 
 #ifdef ENABLE_NLS
 #ifdef HAVE_LOCALE_H
@@ -238,7 +238,7 @@ main(int argc, char **argv)
 #ifdef ENABLE_NLS
     setlocale (LC_ALL, "");
 #endif
-    xfce_textdomain (GETTEXT_PACKAGE, LOCALEDIR, "UTF-8");
+    expidus_textdomain (GETTEXT_PACKAGE, LOCALEDIR, "UTF-8");
 
     context = g_option_context_new(_("- Esconf commandline utility"));
     g_option_context_add_main_entries(context, entries, GETTEXT_PACKAGE);

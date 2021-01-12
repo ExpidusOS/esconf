@@ -14,7 +14,7 @@ esconf_query_SOURCES = \
 
 esconf_query_CFLAGS = \
 	$(GLIB_CFLAGS) \
-	$(LIBXFCE4UTIL_CFLAGS) \
+	$(LIBEXPIDUS1UTIL_CFLAGS) \
 	$(GIO_UNIX_CFLAGS) \
 	$(PLATFORM_CFLAGS)
 
@@ -25,5 +25,5 @@ esconf_query_LDADD = \
 	$(top_builddir)/common/libesconf-gvaluefuncs.la \
 	$(top_builddir)/esconf/libesconf-0.la \
 	$(GLIB_LIBS) \
-	$(LIBXFCE4UTIL_LIBS) \
+	$(LIBEXPIDUS1UTIL_LIBS) \
 	$(GIO_UNIX_LIBS)

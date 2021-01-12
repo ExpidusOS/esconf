@@ -57,7 +57,7 @@ AM_CPPFLAGS = \
 	-I$(top_srcdir) \
 	-I$(top_builddir) \
 	$(GLIB_CFLAGS) \
-	$(LIBXFCE4UTIL_CFLAGS) \
+	$(LIBEXPIDUS1UTIL_CFLAGS) \
 	$(GIO_UNIX_CFLAGS) \
 	$(GTK_DOC_EXTRA_CFLAGS)
 

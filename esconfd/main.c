@@ -48,7 +48,7 @@
 #include <errno.h>
 #endif
 
-#include <libxfce4util/libxfce4util.h>
+#include <libexpidus1util/libexpidus1util.h>
 #include <gio/gio.h>
 
 #include "esconf-daemon.h"
@@ -171,7 +171,7 @@ main(int argc,
     act.sa_handler = SIG_IGN;
     sigaction(SIGPIPE, &act, NULL);
     
-    xfce_textdomain(PACKAGE, LOCALEDIR, "UTF-8");
+    expidus_textdomain(PACKAGE, LOCALEDIR, "UTF-8");
     
     g_set_application_name(_("Xfce Configuration Daemon"));
     g_set_prgname(G_LOG_DOMAIN);

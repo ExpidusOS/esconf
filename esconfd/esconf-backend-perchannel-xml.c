@@ -51,7 +51,7 @@
 #include <fcntl.h>
 #endif
 
-#include <libxfce4util/libxfce4util.h>
+#include <libexpidus1util/libexpidus1util.h>
 
 #include "esconf-backend-perchannel-xml.h"
 #include "esconf-backend.h"
@@ -265,7 +265,7 @@ esconf_backend_perchannel_xml_initialize(EsconfBackend *backend,
                                          GError **error)
 {
     EsconfBackendPerchannelXml *backend_px = ESCONF_BACKEND_PERCHANNEL_XML(backend);
-    gchar *path = xfce_resource_save_location(XFCE_RESOURCE_CONFIG,
+    gchar *path = expidus_resource_save_location(EXPIDUS_RESOURCE_CONFIG,
                                               CONFIG_DIR_STEM,
                                               TRUE);
 
@@ -686,7 +686,7 @@ esconf_backend_perchannel_xml_list_channels(EsconfBackend *backend,
     GDir *dir;
     const gchar *name;
 
-    dirs = xfce_resource_lookup_all(XFCE_RESOURCE_CONFIG, CONFIG_DIR_STEM);
+    dirs = expidus_resource_lookup_all(EXPIDUS_RESOURCE_CONFIG, CONFIG_DIR_STEM);
     for(i = 0; dirs[i]; ++i) {
         dir = g_dir_open(dirs[i], 0, 0);
         if(!dir)
@@ -1642,8 +1642,8 @@ esconf_backend_perchannel_xml_load_channel(EsconfBackendPerchannelXml *xbpx,
     TRACE("entering");
 
     filename_stem = g_strdup_printf(CONFIG_FILE_FMT, channel_name);
-    filenames = xfce_resource_lookup_all(XFCE_RESOURCE_CONFIG, filename_stem);
-    user_file = xfce_resource_save_location(XFCE_RESOURCE_CONFIG,
+    filenames = expidus_resource_lookup_all(EXPIDUS_RESOURCE_CONFIG, filename_stem);
+    user_file = expidus_resource_save_location(EXPIDUS_RESOURCE_CONFIG,
                                             filename_stem, FALSE);
     g_free(filename_stem);
 
