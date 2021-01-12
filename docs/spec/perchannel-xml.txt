@@ -29,7 +29,7 @@ EsconfBackendPerchannelXml file format, version 1.0
 -> File locations:
 
    Per-channel XML files can be located in any of the $XDG_CONFIG_DIRS,
-   under the subdirectory "xfce4/esconf/xfce-perchannel-xml/".  The
+   under the subdirectory "expidus1/esconf/xfce-perchannel-xml/".  The
    user's own settings are saved in $XDG_CONFIG_HOME, under the same
    subdirectory.
 

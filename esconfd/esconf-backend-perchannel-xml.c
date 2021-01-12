@@ -65,7 +65,7 @@
 
 #define PROP_NAME_IS_VALID(name) ( (name) && (name)[0] == '/' && (name)[1] != 0 && !strstr((name), "//") )
 
-#define CONFIG_DIR_STEM  "xfce4/esconf/" ESCONF_BACKEND_PERCHANNEL_XML_TYPE_ID "/"
+#define CONFIG_DIR_STEM  "expidus1/esconf/" ESCONF_BACKEND_PERCHANNEL_XML_TYPE_ID "/"
 #define CONFIG_FILE_FMT  CONFIG_DIR_STEM "%s.xml"
 #define CACHE_TIMEOUT    (20*60*1000)  /* 20 minutes */
 #define WRITE_TIMEOUT    (5)  /* 5 seconds */

@@ -24,8 +24,8 @@
   cat >&2 <<EOF
 autogen.sh: You don't seem to have the Xfce development tools installed on
             your system, which are required to build this software.
-            Please install the xfce4-dev-tools package first, available from
-            http://xfce.org/~benny/projects/xfce4-dev-tools/.
+            Please install the expidus1-dev-tools package first, available from
+            http://xfce.org/~benny/projects/expidus1-dev-tools/.
 EOF
   exit 1
 }

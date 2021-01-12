@@ -7,7 +7,7 @@ AM_CPPFLAGS = \
 	-DLOCALEDIR=\"$(localedir)\" \
 	$(PLATFORM_CPPFLAGS)
 
-esconfddir = $(HELPER_PATH_PREFIX)/xfce4/esconf
+esconfddir = $(HELPER_PATH_PREFIX)/expidus1/esconf
 esconfd_PROGRAMS = esconfd
 
 esconf_backend_sources =

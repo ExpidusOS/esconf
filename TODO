@@ -17,7 +17,7 @@
     + what happens if a channel isn't loaded into memory and its backing file
       changes?  load it and send PropertyChanged for all properties?  that
       could be very bad.
-* libxfce4mcs-client dummy implementation that forwards to libesconf (?)
+* libexpidus1mcs-client dummy implementation that forwards to libesconf (?)
 * maybe validate channel/prop names in libesconf too to generate an error
   without a roundtrip to the server (?)
 

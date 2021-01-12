@@ -1,3 +1,3 @@
 [D-BUS Service]
 Name=com.expidus.Esconf
-Exec=@HELPERDIR@/xfce4/esconf/esconfd
+Exec=@HELPERDIR@/expidus1/esconf/esconfd

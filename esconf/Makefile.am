@@ -7,7 +7,7 @@ AM_CPPFLAGS = \
 
 lib_LTLIBRARIES = libesconf-0.la
 
-libesconfincludedir = $(includedir)/xfce4/esconf-$(LIBESCONF_VERSION_API)/esconf
+libesconfincludedir = $(includedir)/expidus1/esconf-$(LIBESCONF_VERSION_API)/esconf
 libesconfinclude_HEADERS = \
 	esconf-binding.h \
 	esconf-channel.h \

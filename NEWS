@@ -297,7 +297,7 @@ Release rebuild for libesconf-0.deps
 
 4.5.91
 ======
-- Remove xfsettingsd (moved to xfce4-settings package).  This removes
+- Remove xfsettingsd (moved to expidus1-settings package).  This removes
   esconf's gtk+ dependency entirely.
 - Add esconf_channel_get() which returns an EsconfChannel singleton
   object that lives until calling esconf_shutdown().
