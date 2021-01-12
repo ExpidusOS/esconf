@@ -14,7 +14,7 @@ msgstr ""
 "POT-Creation-Date: 2017-06-01 18:31+0200\n"
 "PO-Revision-Date: 2019-02-16 01:28+0000\n"
 "Last-Translator: Andre Miranda <andre42m@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/xfce/esconf/language/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/expidus/esconf/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -162,8 +162,8 @@ msgid "Xfce configuration daemon"
 msgstr "Serviço de configuração do Xfce"
 
 #: ../esconfd/main.c:184
-msgid "Report bugs to http://bugs.xfce.org/\n"
-msgstr "Relate erros em http://bugs.xfce.org/\n"
+msgid "Report bugs to http://bugs.expidus.org/\n"
+msgstr "Relate erros em http://bugs.expidus.org/\n"
 
 #: ../esconfd/main.c:187
 #, c-format

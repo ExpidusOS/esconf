@@ -12,7 +12,7 @@ msgstr ""
 "POT-Creation-Date: 2017-06-01 18:31+0200\n"
 "PO-Revision-Date: 2018-09-14 00:20+0000\n"
 "Last-Translator: abuyop <abuyop@gmail.com>\n"
-"Language-Team: Malay (http://www.transifex.com/xfce/esconf/language/ms/)\n"
+"Language-Team: Malay (http://www.transifex.com/expidus/esconf/language/ms/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -160,8 +160,8 @@ msgid "Xfce configuration daemon"
 msgstr "Konfigurasi daemon Xfce"
 
 #: ../esconfd/main.c:184
-msgid "Report bugs to http://bugs.xfce.org/\n"
-msgstr "Laporkan pepijat ke http://bugs.xfce.org/\n"
+msgid "Report bugs to http://bugs.expidus.org/\n"
+msgstr "Laporkan pepijat ke http://bugs.expidus.org/\n"
 
 #: ../esconfd/main.c:187
 #, c-format

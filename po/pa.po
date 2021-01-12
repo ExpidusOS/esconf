@@ -152,8 +152,8 @@ msgid "Xfce configuration daemon"
 msgstr "Xfce ਸੰਰਚਨਾ ਡੈਮਨ"
 
 #: ../esconfd/main.c:167
-msgid "Report bugs to http://bugs.xfce.org/\n"
-msgstr "ਬੱਗ ਰਿਪੋਰਟ ਕਰੋ http://bugs.xfce.org/ ਉੱਤੇ\n"
+msgid "Report bugs to http://bugs.expidus.org/\n"
+msgstr "ਬੱਗ ਰਿਪੋਰਟ ਕਰੋ http://bugs.expidus.org/ ਉੱਤੇ\n"
 
 #: ../esconfd/main.c:170
 #, c-format

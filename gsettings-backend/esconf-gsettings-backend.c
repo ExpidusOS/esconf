@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 - Ali Abdallah <ali@xfce.org>
+ * Copyright (C) 2018 - Ali Abdallah <ali@expidus.org>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License

@@ -1,7 +1,7 @@
 /*
  *  esconfd
  *  
- *  Copyright (c) 2016 Ali Abdallah <ali@xfce.org>
+ *  Copyright (c) 2016 Ali Abdallah <ali@expidus.org>
  *  Copyright (c) 2007 Brian Tarricone <bjt23@cornell.edu>
  *
  *  This program is free software; you can redistribute it and/or modify

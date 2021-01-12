@@ -1,7 +1,7 @@
 /*
  *  esconf
  *
- *  Copyright (c) 2016 Ali Abdallah <ali@xfce.org>
+ *  Copyright (c) 2016 Ali Abdallah <ali@expidus.org>
  *  Copyright (c) 2007-2008 Brian Tarricone <bjt23@cornell.edu>
  *
  *  This library is free software; you can redistribute it and/or

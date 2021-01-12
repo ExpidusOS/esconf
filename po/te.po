@@ -153,8 +153,8 @@ msgid "Xfce configuration daemon"
 msgstr "Xfce స్వరూపణం డెమోన్"
 
 #: ../esconfd/main.c:167
-msgid "Report bugs to http://bugs.xfce.org/\n"
-msgstr "బగ్‌లను http://bugs.xfce.org/ కు నివేదించండి\n"
+msgid "Report bugs to http://bugs.expidus.org/\n"
+msgstr "బగ్‌లను http://bugs.expidus.org/ కు నివేదించండి\n"
 
 #: ../esconfd/main.c:170
 #, c-format

@@ -10,7 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2017-06-01 18:31+0200\n"
 "PO-Revision-Date: 2020-03-02 14:37+0000\n"
 "Last-Translator: Zmicer Turok <nashtlumach@gmail.com>\n"
-"Language-Team: Belarusian (http://www.transifex.com/xfce/esconf/language/be/)\n"
+"Language-Team: Belarusian (http://www.transifex.com/expidus/esconf/language/be/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -158,8 +158,8 @@ msgid "Xfce configuration daemon"
 msgstr "Дэман канфігурацыі Xfce"
 
 #: ../esconfd/main.c:184
-msgid "Report bugs to http://bugs.xfce.org/\n"
-msgstr "Паведамляйце пра хібы на http://bugs.xfce.org/\n"
+msgid "Report bugs to http://bugs.expidus.org/\n"
+msgstr "Паведамляйце пра хібы на http://bugs.expidus.org/\n"
 
 #: ../esconfd/main.c:187
 #, c-format

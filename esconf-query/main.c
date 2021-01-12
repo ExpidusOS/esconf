@@ -1,5 +1,5 @@
 /*
- *  Copyright (c) 2008 Stephan Arts <stephan@xfce.org>
+ *  Copyright (c) 2008 Stephan Arts <stephan@expidus.org>
  *  Copyright (c) 2008 Brian Tarricone <bjt23@cornell.edu>
  *
  *  This program is free software; you can redistribute it and/or modify

@@ -13,7 +13,7 @@ msgstr ""
 "POT-Creation-Date: 2017-06-01 18:31+0200\n"
 "PO-Revision-Date: 2019-08-01 19:59+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech (http://www.transifex.com/xfce/esconf/language/cs/)\n"
+"Language-Team: Czech (http://www.transifex.com/expidus/esconf/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -161,8 +161,8 @@ msgid "Xfce configuration daemon"
 msgstr "Proces služby nastavení Xfce"
 
 #: ../esconfd/main.c:184
-msgid "Report bugs to http://bugs.xfce.org/\n"
-msgstr "Chyby hlaste na http://bugs.xfce.org/\n"
+msgid "Report bugs to http://bugs.expidus.org/\n"
+msgstr "Chyby hlaste na http://bugs.expidus.org/\n"
 
 #: ../esconfd/main.c:187
 #, c-format

@@ -98,7 +98,7 @@ Release rebuild for libesconf-0.deps
 4.13.1
 ======
 - Revert the bump of libesconf version from 0 to 1,
-  to avoid massive changes in all xfce's components.
+  to avoid massive changes in all expidus's components.
 
 4.13.0
 ======
@@ -229,7 +229,7 @@ Release rebuild for libesconf-0.deps
   things up a bit on app startup, and avoid blocking waiting on DBus
   in other cases.
 - New simpler (internal) handling of property bindings.
-- Use new xdt macros, this requires xfce-dev-tools 4.7.2.
+- Use new xdt macros, this requires expidus-dev-tools 4.7.2.
 - New tests for object bindings.
 - Updated translations: es, kk, ca, sv, hu, ro, gl, ja, cs, lv, ast,
   zh_CN, ur, ur_PK, da, eu, pt.

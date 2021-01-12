@@ -9,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-01 18:31+0200\n"
 "PO-Revision-Date: 2017-09-23 19:02+0000\n"
-"Last-Translator: Xfce Bot <transifex@xfce.org>\n"
-"Language-Team: Uyghur (http://www.transifex.com/xfce/esconf/language/ug/)\n"
+"Last-Translator: Xfce Bot <transifex@expidus.org>\n"
+"Language-Team: Uyghur (http://www.transifex.com/expidus/esconf/language/ug/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -158,8 +158,8 @@ msgid "Xfce configuration daemon"
 msgstr "Xfce تەڭشەك مۇئەككىلى"
 
 #: ../esconfd/main.c:184
-msgid "Report bugs to http://bugs.xfce.org/\n"
-msgstr "كەمتۈكنى  http://bugs.xfce.org/ نىڭ مەلۇم قىلىڭ\n"
+msgid "Report bugs to http://bugs.expidus.org/\n"
+msgstr "كەمتۈكنى  http://bugs.expidus.org/ نىڭ مەلۇم قىلىڭ\n"
 
 #: ../esconfd/main.c:187
 #, c-format

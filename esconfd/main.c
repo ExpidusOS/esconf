@@ -1,7 +1,7 @@
 /*
  *  esconf
  *
- *  Copyright (c) 2016 Ali Abdallah <ali@xfce.org>
+ *  Copyright (c) 2016 Ali Abdallah <ali@expidus.org>
  *  Copyright (c) 2007 Brian Tarricone <bjt23@cornell.edu>
  *
  *  This program is free software; you can redistribute it and/or modify
@@ -54,7 +54,7 @@
 #include "esconf-daemon.h"
 #include "esconf-backend-factory.h"
 
-#define DEFAULT_BACKEND  "xfce-perchannel-xml"
+#define DEFAULT_BACKEND  "expidus-perchannel-xml"
 #define ESCONF_DBUS_NAME "com.expidus.Esconf"
 #define ESCONF_DBUS_NAME_TEST "com.expidus.EsconfTest"
 
@@ -180,7 +180,7 @@ main(int argc,
     g_option_context_set_translation_domain(opt_ctx, PACKAGE);
     g_option_context_set_summary(opt_ctx, _("Xfce configuration daemon"));
     g_option_context_set_description(opt_ctx,
-                                     _("Report bugs to http://bugs.xfce.org/\n"));
+                                     _("Report bugs to http://bugs.expidus.org/\n"));
     g_option_context_add_main_entries(opt_ctx, options, PACKAGE);
     if(!g_option_context_parse(opt_ctx, &argc, &argv, &error)) {
         g_printerr(_("Error parsing options: %s\n"), error->message);

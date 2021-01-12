@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Xfce Bot <transifex@xfce.org>, 2014
+# Xfce Bot <transifex@expidus.org>, 2014
 # Мирослав Николић <miroslavnikolic@rocketmail.com>, 2012
 # Саша Петровић <salepetronije@gmail.com>, 2017
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "POT-Creation-Date: 2017-06-01 18:31+0200\n"
 "PO-Revision-Date: 2018-09-14 00:20+0000\n"
 "Last-Translator: Саша Петровић <salepetronije@gmail.com>\n"
-"Language-Team: Serbian (http://www.transifex.com/xfce/esconf/language/sr/)\n"
+"Language-Team: Serbian (http://www.transifex.com/expidus/esconf/language/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -161,8 +161,8 @@ msgid "Xfce configuration daemon"
 msgstr "Прибор за подешавање Иксфце-а"
 
 #: ../esconfd/main.c:184
-msgid "Report bugs to http://bugs.xfce.org/\n"
-msgstr "Пријавите грешаке на „http://bugs.xfce.org/“\n"
+msgid "Report bugs to http://bugs.expidus.org/\n"
+msgstr "Пријавите грешаке на „http://bugs.expidus.org/“\n"
 
 #: ../esconfd/main.c:187
 #, c-format

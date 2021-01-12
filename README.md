@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://gitlab.xfce.com/expidus/esconf/-/blob/master/COPYING)
+[![License](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://gitlab.expidus.com/expidus/esconf/-/blob/master/COPYING)
 
 # esconf
 
@@ -12,21 +12,21 @@ See the esconf homepage for usage and examples.
 
 ### Homepage
 
-[Esconf documentation](https://docs.xfce.com/expidus/esconf/start)
+[Esconf documentation](https://docs.expidus.com/expidus/esconf/start)
 
 ### Changelog
 
-See [NEWS](https://gitlab.xfce.com/expidus/esconf/-/blob/master/NEWS) for details on changes and fixes made in the current release.
+See [NEWS](https://gitlab.expidus.com/expidus/esconf/-/blob/master/NEWS) for details on changes and fixes made in the current release.
 
 ### Source Code Repository
 
-[Esconf source code](https://gitlab.xfce.com/expidus/esconf)
+[Esconf source code](https://gitlab.expidus.com/expidus/esconf)
 
 ### Download a Release Tarball
 
-[Esconf archive](https://archive.xfce.org/src/xfce/esconf)
+[Esconf archive](https://archive.expidus.org/src/expidus/esconf)
     or
-[Esconf tags](https://gitlab.xfce.com/expidus/esconf/-/tags)
+[Esconf tags](https://gitlab.expidus.com/expidus/esconf/-/tags)
 
 ### Installation
 
@@ -47,5 +47,5 @@ From release tarball:
 
 ### Reporting Bugs
 
-Visit the [reporting bugs](https://docs.xfce.com/expidus/esconf/bugs) page to view currently open bug reports and instructions on reporting new bugs or submitting bugfixes.
+Visit the [reporting bugs](https://docs.expidus.com/expidus/esconf/bugs) page to view currently open bug reports and instructions on reporting new bugs or submitting bugfixes.
 

@@ -1,5 +1,5 @@
 include:
-  - project: 'xfce/expidus1-dev-tools'
+  - project: 'expidus/expidus1-dev-tools'
     file: '/ci/build_project.yml'
 
 # esconf distcheck needs a working display/dbus to run tests

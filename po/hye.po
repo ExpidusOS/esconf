@@ -12,7 +12,7 @@ msgstr ""
 "POT-Creation-Date: 2017-06-01 18:31+0200\n"
 "PO-Revision-Date: 2020-06-04 13:29+0000\n"
 "Last-Translator: Arman Harutyunyan <arman.harut468@gmail.com>\n"
-"Language-Team: Eastern Armenian (http://www.transifex.com/xfce/esconf/language/hye/)\n"
+"Language-Team: Eastern Armenian (http://www.transifex.com/expidus/esconf/language/hye/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -160,8 +160,8 @@ msgid "Xfce configuration daemon"
 msgstr "Xfce֊ի կազմաձեւման աւժանդակ ծրագիր"
 
 #: ../esconfd/main.c:184
-msgid "Report bugs to http://bugs.xfce.org/\n"
-msgstr "Վրիպակների դէպքում կարող էք դիմել http://bugs.xfce.org/ հասցէով\n"
+msgid "Report bugs to http://bugs.expidus.org/\n"
+msgstr "Վրիպակների դէպքում կարող էք դիմել http://bugs.expidus.org/ հասցէով\n"
 
 #: ../esconfd/main.c:187
 #, c-format

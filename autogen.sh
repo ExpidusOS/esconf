@@ -3,7 +3,7 @@
 # Copyright (c) 2002-2005
 #         The Xfce development team. All rights reserved.
 #
-# Written for Xfce by Benedikt Meurer <benny@xfce.org>.
+# Written for Xfce by Benedikt Meurer <benny@expidus.org>.
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -25,7 +25,7 @@
 autogen.sh: You don't seem to have the Xfce development tools installed on
             your system, which are required to build this software.
             Please install the expidus1-dev-tools package first, available from
-            http://xfce.org/~benny/projects/expidus1-dev-tools/.
+            http://expidus.org/~benny/projects/expidus1-dev-tools/.
 EOF
   exit 1
 }

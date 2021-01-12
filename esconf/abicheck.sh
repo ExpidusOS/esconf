@@ -1,7 +1,7 @@
 #!/bin/sh
 #
 # Copyright (c) 2004 The GLib Development Team.
-# Copyright (c) 2005 Benedikt Meurer <benny@xfce.org>.
+# Copyright (c) 2005 Benedikt Meurer <benny@expidus.org>.
 # Copyright (c) 2011 Guido Berhoerster <gber@opensuse.org>
 #
 # This program is free software; you can redistribute it and/or modify

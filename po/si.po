@@ -152,7 +152,7 @@ msgid "Xfce configuration daemon"
 msgstr ""
 
 #: ../esconfd/main.c:167
-msgid "Report bugs to http://bugs.xfce.org/\n"
+msgid "Report bugs to http://bugs.expidus.org/\n"
 msgstr ""
 
 #: ../esconfd/main.c:170

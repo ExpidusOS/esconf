@@ -10,8 +10,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-01 18:31+0200\n"
 "PO-Revision-Date: 2018-09-14 00:20+0000\n"
-"Last-Translator: Xfce Bot <transifex@xfce.org>\n"
-"Language-Team: Latvian (http://www.transifex.com/xfce/esconf/language/lv/)\n"
+"Last-Translator: Xfce Bot <transifex@expidus.org>\n"
+"Language-Team: Latvian (http://www.transifex.com/expidus/esconf/language/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -159,8 +159,8 @@ msgid "Xfce configuration daemon"
 msgstr "Xfce konfigurācijas dēmons"
 
 #: ../esconfd/main.c:184
-msgid "Report bugs to http://bugs.xfce.org/\n"
-msgstr "Ziņot par kļūdām uz http://bugs.xfce.org/\n"
+msgid "Report bugs to http://bugs.expidus.org/\n"
+msgstr "Ziņot par kļūdām uz http://bugs.expidus.org/\n"
 
 #: ../esconfd/main.c:187
 #, c-format

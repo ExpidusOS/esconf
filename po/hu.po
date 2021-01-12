@@ -12,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-01 18:31+0200\n"
 "PO-Revision-Date: 2018-09-14 00:20+0000\n"
-"Last-Translator: Xfce Bot <transifex@xfce.org>\n"
-"Language-Team: Hungarian (http://www.transifex.com/xfce/esconf/language/hu/)\n"
+"Last-Translator: Xfce Bot <transifex@expidus.org>\n"
+"Language-Team: Hungarian (http://www.transifex.com/expidus/esconf/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -161,8 +161,8 @@ msgid "Xfce configuration daemon"
 msgstr "Xfce konfigurációs démon"
 
 #: ../esconfd/main.c:184
-msgid "Report bugs to http://bugs.xfce.org/\n"
-msgstr "A hibákat a http://bugs.xfce.org/ oldalon jelentse.\n"
+msgid "Report bugs to http://bugs.expidus.org/\n"
+msgstr "A hibákat a http://bugs.expidus.org/ oldalon jelentse.\n"
 
 #: ../esconfd/main.c:187
 #, c-format
