@@ -145,12 +145,12 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr ""
 
 #: ../esconfd/main.c:159
-msgid "Xfce Configuration Daemon"
-msgstr "Xfce స్వరూపణం డెమోన్"
+msgid "Expidus Configuration Daemon"
+msgstr "Expidus స్వరూపణం డెమోన్"
 
 #: ../esconfd/main.c:165
-msgid "Xfce configuration daemon"
-msgstr "Xfce స్వరూపణం డెమోన్"
+msgid "Expidus configuration daemon"
+msgstr "Expidus స్వరూపణం డెమోన్"
 
 #: ../esconfd/main.c:167
 msgid "Report bugs to http://bugs.expidus.org/\n"
@@ -246,8 +246,8 @@ msgid "Option parsing failed: %s"
 msgstr ""
 
 #: ../esconf-query/main.c:266
-msgid "The Xfce development team. All rights reserved."
-msgstr "Xfce అభివృద్ధి బృందం. అన్ని హక్కులు కేటాయించబడినవి."
+msgid "The Expidus development team. All rights reserved."
+msgstr "Expidus అభివృద్ధి బృందం. అన్ని హక్కులు కేటాయించబడినవి."
 
 #: ../esconf-query/main.c:267
 #, c-format

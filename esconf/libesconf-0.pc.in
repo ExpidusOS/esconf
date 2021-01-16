@@ -6,7 +6,7 @@ includedir=@includedir@
 libesconf_api_version=@LIBESCONF_VERSION_API@
 
 Name: @PACKAGE_TARNAME@
-Description: Configuration library for Xfce
+Description: Configuration library for Expidus
 Requires: gio-2.0
 Version: @PACKAGE_VERSION@
 Libs: -L${libdir} -lesconf-${libesconf_api_version}

@@ -152,12 +152,12 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr "Paleidus vykdyti fone; naudinga tik testavimui"
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
-msgstr "Xfce konfigūracijos tarnyba"
+msgid "Expidus Configuration Daemon"
+msgstr "Expidus konfigūracijos tarnyba"
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
-msgstr "Xfce konfigūracijos tarnyba"
+msgid "Expidus configuration daemon"
+msgstr "Expidus konfigūracijos tarnyba"
 
 #: ../esconfd/main.c:184
 msgid "Report bugs to http://bugs.expidus.org/\n"
@@ -245,7 +245,7 @@ msgstr "Nepavyko inicijuoti libesconf: %s"
 
 #: ../esconf-query/main.c:254
 msgid "- Esconf commandline utility"
-msgstr "- Xfce komandinės eilutės programa"
+msgstr "- Expidus komandinės eilutės programa"
 
 #: ../esconf-query/main.c:259
 #, c-format
@@ -253,8 +253,8 @@ msgid "Option parsing failed: %s"
 msgstr "Nepavyko apdoroti parametrų: %s"
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
-msgstr "Xfce kūrėjų komanda. Visos teisės saugomos."
+msgid "The Expidus development team. All rights reserved."
+msgstr "Expidus kūrėjų komanda. Visos teisės saugomos."
 
 #: ../esconf-query/main.c:270
 #, c-format

@@ -153,12 +153,12 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr "Po spuštění přenést proces na pozadí; tato volba je užitečná pouze pro testování"
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
-msgstr "Proces služby nastavení Xfce"
+msgid "Expidus Configuration Daemon"
+msgstr "Proces služby nastavení Expidus"
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
-msgstr "Proces služby nastavení Xfce"
+msgid "Expidus configuration daemon"
+msgstr "Proces služby nastavení Expidus"
 
 #: ../esconfd/main.c:184
 msgid "Report bugs to http://bugs.expidus.org/\n"
@@ -254,8 +254,8 @@ msgid "Option parsing failed: %s"
 msgstr "Zpracování přepínačů se nezdařilo: %s"
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
-msgstr "Tým vývojářů prostředí Xfce. Všechna práva vyhrazena."
+msgid "The Expidus development team. All rights reserved."
+msgstr "Tým vývojářů prostředí Expidus. Všechna práva vyhrazena."
 
 #: ../esconf-query/main.c:270
 #, c-format

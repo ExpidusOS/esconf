@@ -151,11 +151,11 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr ""
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
+msgid "Expidus Configuration Daemon"
 msgstr ""
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
+msgid "Expidus configuration daemon"
 msgstr ""
 
 #: ../esconfd/main.c:184
@@ -252,8 +252,8 @@ msgid "Option parsing failed: %s"
 msgstr "Tasleḍt n yiɣewwaren ur teddi ara: %s"
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
-msgstr "Tarbaɛt n tneflit n Xfce. Izerfan akk ttwaḥerzen."
+msgid "The Expidus development team. All rights reserved."
+msgstr "Tarbaɛt n tneflit n Expidus. Izerfan akk ttwaḥerzen."
 
 #: ../esconf-query/main.c:270
 #, c-format

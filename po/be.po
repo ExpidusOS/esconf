@@ -150,12 +150,12 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr "Выконваць у фоне пасля запуску; карысна толькі для тэстаў"
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
-msgstr "Дэман канфігурацыі Xfce"
+msgid "Expidus Configuration Daemon"
+msgstr "Дэман канфігурацыі Expidus"
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
-msgstr "Дэман канфігурацыі Xfce"
+msgid "Expidus configuration daemon"
+msgstr "Дэман канфігурацыі Expidus"
 
 #: ../esconfd/main.c:184
 msgid "Report bugs to http://bugs.expidus.org/\n"
@@ -251,8 +251,8 @@ msgid "Option parsing failed: %s"
 msgstr "Не атрымалася разабраць параметр: %s"
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
-msgstr "Каманда распрацоўкі Xfce. Усе правы абароненыя."
+msgid "The Expidus development team. All rights reserved."
+msgstr "Каманда распрацоўкі Expidus. Усе правы абароненыя."
 
 #: ../esconf-query/main.c:270
 #, c-format

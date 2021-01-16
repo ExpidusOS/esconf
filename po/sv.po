@@ -152,12 +152,12 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr "Grena processen till bakgrunden efter start; endast användbart för testsyfte"
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
-msgstr "Konfigurationsdemon för Xfce"
+msgid "Expidus Configuration Daemon"
+msgstr "Konfigurationsdemon för Expidus"
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
-msgstr "Konfigurationsdemon för Xfce"
+msgid "Expidus configuration daemon"
+msgstr "Konfigurationsdemon för Expidus"
 
 #: ../esconfd/main.c:184
 msgid "Report bugs to http://bugs.expidus.org/\n"
@@ -253,8 +253,8 @@ msgid "Option parsing failed: %s"
 msgstr "Alternativ tolkning misslyckades: %s"
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
-msgstr "Xfce:s utvecklingsteam. Alla rättigheter förbehållna."
+msgid "The Expidus development team. All rights reserved."
+msgstr "Expidus:s utvecklingsteam. Alla rättigheter förbehållna."
 
 #: ../esconf-query/main.c:270
 #, c-format

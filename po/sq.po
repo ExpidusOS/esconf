@@ -151,12 +151,12 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr "Degëzoje në prapaskenë, pas nisjes; e dobishme vetëm për qëllime testimi"
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
-msgstr "Demoni i Formësimit të Xfce-së"
+msgid "Expidus Configuration Daemon"
+msgstr "Demoni i Formësimit të Expidus-së"
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
-msgstr "Demoni i formësimit të Xfce-së"
+msgid "Expidus configuration daemon"
+msgstr "Demoni i formësimit të Expidus-së"
 
 #: ../esconfd/main.c:184
 msgid "Report bugs to http://bugs.expidus.org/\n"
@@ -252,8 +252,8 @@ msgid "Option parsing failed: %s"
 msgstr "Përtypja e mundësisë dështoi: %s"
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
-msgstr "Ekipi i zhvillimit të Xfce-së. Tërë të drejtat të rezervuara."
+msgid "The Expidus development team. All rights reserved."
+msgstr "Ekipi i zhvillimit të Expidus-së. Tërë të drejtat të rezervuara."
 
 #: ../esconf-query/main.c:270
 #, c-format

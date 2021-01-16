@@ -173,12 +173,12 @@ main(int argc,
     
     expidus_textdomain(PACKAGE, LOCALEDIR, "UTF-8");
     
-    g_set_application_name(_("Xfce Configuration Daemon"));
+    g_set_application_name(_("Expidus Configuration Daemon"));
     g_set_prgname(G_LOG_DOMAIN);
     
     opt_ctx = g_option_context_new(NULL);
     g_option_context_set_translation_domain(opt_ctx, PACKAGE);
-    g_option_context_set_summary(opt_ctx, _("Xfce configuration daemon"));
+    g_option_context_set_summary(opt_ctx, _("Expidus configuration daemon"));
     g_option_context_set_description(opt_ctx,
                                      _("Report bugs to http://bugs.expidus.org/\n"));
     g_option_context_add_main_entries(opt_ctx, options, PACKAGE);

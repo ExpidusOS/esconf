@@ -154,12 +154,12 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr "Forgren i bakgrunnen etter start; bare nyttig for testformål"
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
-msgstr "Xfce Konfigurasjonsprosess"
+msgid "Expidus Configuration Daemon"
+msgstr "Expidus Konfigurasjonsprosess"
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
-msgstr "Xfce konfigurasjonsprosess"
+msgid "Expidus configuration daemon"
+msgstr "Expidus konfigurasjonsprosess"
 
 #: ../esconfd/main.c:184
 msgid "Report bugs to http://bugs.expidus.org/\n"
@@ -255,8 +255,8 @@ msgid "Option parsing failed: %s"
 msgstr "Tolking av tilvalg feilet: %s"
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
-msgstr "Xfce-utviklingslaget. Alle rettigheter reservert."
+msgid "The Expidus development team. All rights reserved."
+msgstr "Expidus-utviklingslaget. Alle rettigheter reservert."
 
 #: ../esconf-query/main.c:270
 #, c-format

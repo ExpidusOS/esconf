@@ -155,12 +155,12 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr ""
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
-msgstr "Xfce stillingapúki"
+msgid "Expidus Configuration Daemon"
+msgstr "Expidus stillingapúki"
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
-msgstr "Xfce stillingapúki"
+msgid "Expidus configuration daemon"
+msgstr "Expidus stillingapúki"
 
 #: ../esconfd/main.c:184
 msgid "Report bugs to http://bugs.expidus.org/\n"
@@ -256,8 +256,8 @@ msgid "Option parsing failed: %s"
 msgstr ""
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
-msgstr "Xfce þróunarteymið. Allur réttur áskilinn."
+msgid "The Expidus development team. All rights reserved."
+msgstr "Expidus þróunarteymið. Allur réttur áskilinn."
 
 #: ../esconf-query/main.c:270
 #, c-format

@@ -153,12 +153,12 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr "Po spustení preniesť proces do pozadia; táto možnosť je užitočná iba pre testovanie"
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
-msgstr "Konfiguračný démon Xfce"
+msgid "Expidus Configuration Daemon"
+msgstr "Konfiguračný démon Expidus"
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
-msgstr "Konfiguračný démon Xfce"
+msgid "Expidus configuration daemon"
+msgstr "Konfiguračný démon Expidus"
 
 #: ../esconfd/main.c:184
 msgid "Report bugs to http://bugs.expidus.org/\n"
@@ -254,8 +254,8 @@ msgid "Option parsing failed: %s"
 msgstr "Možnosť analýzy zlyhala: %s"
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
-msgstr "Vývojový tím Xfce. Všetky práva vyhradené."
+msgid "The Expidus development team. All rights reserved."
+msgstr "Vývojový tím Expidus. Všetky práva vyhradené."
 
 #: ../esconf-query/main.c:270
 #, c-format

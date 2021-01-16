@@ -153,12 +153,12 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr "Vork in de achtergrond na het starten, alleen nuttig voor proefdoeleinden"
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
-msgstr "Achtergronddienst van Xfce Configuratie"
+msgid "Expidus Configuration Daemon"
+msgstr "Achtergronddienst van Expidus Configuratie"
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
-msgstr "Achtergronddienst van Xfce-configuratie"
+msgid "Expidus configuration daemon"
+msgstr "Achtergronddienst van Expidus-configuratie"
 
 #: ../esconfd/main.c:184
 msgid "Report bugs to http://bugs.expidus.org/\n"
@@ -254,8 +254,8 @@ msgid "Option parsing failed: %s"
 msgstr "Optie lezen mislukt: %s"
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
-msgstr "De Xfce-ontwikkelploeg. Alle rechten voorbehouden."
+msgid "The Expidus development team. All rights reserved."
+msgstr "De Expidus-ontwikkelploeg. Alle rechten voorbehouden."
 
 #: ../esconf-query/main.c:270
 #, c-format

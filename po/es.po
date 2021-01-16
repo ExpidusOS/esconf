@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-01 18:31+0200\n"
 "PO-Revision-Date: 2018-09-14 00:20+0000\n"
-"Last-Translator: Xfce Bot <transifex@expidus.org>\n"
+"Last-Translator: Expidus Bot <transifex@expidus.org>\n"
 "Language-Team: Spanish (http://www.transifex.com/expidus/esconf/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -83,7 +83,7 @@ msgstr "Imposible escribir canal «%s»: %s"
 #: ../esconfd/esconf-backend-factory.c:77
 #, c-format
 msgid "Unable to find Esconf backend of type \"%s\""
-msgstr "No se pudo encontrar el motor del servicio de configuración de Xfce de tipo «%s»"
+msgstr "No se pudo encontrar el motor del servicio de configuración de Expidus de tipo «%s»"
 
 #: ../esconfd/esconf-backend.c:101
 #, c-format
@@ -139,7 +139,7 @@ msgstr "Nombre %s perdido en el mensaje dbus, saliendo."
 
 #: ../esconfd/main.c:148
 msgid "Prints the esconfd version."
-msgstr "Muestra la versión del servicio de configuración de Xfce."
+msgstr "Muestra la versión del servicio de configuración de Expidus."
 
 #: ../esconfd/main.c:150
 msgid ""
@@ -152,12 +152,12 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr "Pasar a segundo plano después de iniciar; solamente útil para pruebas"
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
-msgstr "Servicio de configuración de Xfce"
+msgid "Expidus Configuration Daemon"
+msgstr "Servicio de configuración de Expidus"
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
-msgstr "Servicio de configuración de Xfce"
+msgid "Expidus configuration daemon"
+msgstr "Servicio de configuración de Expidus"
 
 #: ../esconfd/main.c:184
 msgid "Report bugs to http://bugs.expidus.org/\n"
@@ -241,11 +241,11 @@ msgstr "Monitorizar un canal para encontrar cambios de propiedades"
 #: ../esconf-query/main.c:249
 #, c-format
 msgid "Failed to init libesconf: %s"
-msgstr "No se pudo iniciar la biblioteca de configuración de Xfce: %s"
+msgstr "No se pudo iniciar la biblioteca de configuración de Expidus: %s"
 
 #: ../esconf-query/main.c:254
 msgid "- Esconf commandline utility"
-msgstr "- Utilidad de línea de órdenes del Servicio de configuración de Xfce"
+msgstr "- Utilidad de línea de órdenes del Servicio de configuración de Expidus"
 
 #: ../esconf-query/main.c:259
 #, c-format
@@ -253,8 +253,8 @@ msgid "Option parsing failed: %s"
 msgstr "Falló el análisis sintáctico de la opción: %s"
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
-msgstr "El equipo de desarrollo de Xfce. Todos los derechos reservados."
+msgid "The Expidus development team. All rights reserved."
+msgstr "El equipo de desarrollo de Expidus. Todos los derechos reservados."
 
 #: ../esconf-query/main.c:270
 #, c-format

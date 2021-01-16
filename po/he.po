@@ -155,12 +155,12 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr "פנה לרקע לאחר התחלה, שימושי רק למטרות בדיקה"
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
-msgstr "שדון תצורת Xfce "
+msgid "Expidus Configuration Daemon"
+msgstr "שדון תצורת Expidus "
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
-msgstr "שדון תצורת Xfce "
+msgid "Expidus configuration daemon"
+msgstr "שדון תצורת Expidus "
 
 #: ../esconfd/main.c:184
 msgid "Report bugs to http://bugs.expidus.org/\n"
@@ -256,8 +256,8 @@ msgid "Option parsing failed: %s"
 msgstr "%s :ניתוח אפשרות נכשל"
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
-msgstr "קבוצת הפיתוח של Xfce. כל הזכויות שמורות."
+msgid "The Expidus development team. All rights reserved."
+msgstr "קבוצת הפיתוח של Expidus. כל הזכויות שמורות."
 
 #: ../esconf-query/main.c:270
 #, c-format

@@ -153,12 +153,12 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr "Po zagonu naredi dvojnik v ozadju; uporabno le za testiranja."
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
-msgstr "Demon za Xfce nastavitve"
+msgid "Expidus Configuration Daemon"
+msgstr "Demon za Expidus nastavitve"
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
-msgstr "Demon za Xfce nastavitve"
+msgid "Expidus configuration daemon"
+msgstr "Demon za Expidus nastavitve"
 
 #: ../esconfd/main.c:184
 msgid "Report bugs to http://bugs.expidus.org/\n"
@@ -254,8 +254,8 @@ msgid "Option parsing failed: %s"
 msgstr "Razčlenjevanje možnosti ni bilo uspešno: %s"
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
-msgstr "Razvojna skupina za Xfce. Vse pravice pridržane."
+msgid "The Expidus development team. All rights reserved."
+msgstr "Razvojna skupina za Expidus. Vse pravice pridržane."
 
 #: ../esconf-query/main.c:270
 #, c-format

@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-01 18:31+0200\n"
 "PO-Revision-Date: 2018-09-14 00:20+0000\n"
-"Last-Translator: Xfce Bot <transifex@expidus.org>\n"
+"Last-Translator: Expidus Bot <transifex@expidus.org>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/expidus/esconf/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -152,12 +152,12 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr "Перевести у фоновий процес після запуску; використовується тільки для цілей тестування"
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
-msgstr "Служба налаштування Xfce"
+msgid "Expidus Configuration Daemon"
+msgstr "Служба налаштування Expidus"
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
-msgstr "Служба налаштування Xfce"
+msgid "Expidus configuration daemon"
+msgstr "Служба налаштування Expidus"
 
 #: ../esconfd/main.c:184
 msgid "Report bugs to http://bugs.expidus.org/\n"
@@ -253,8 +253,8 @@ msgid "Option parsing failed: %s"
 msgstr "Опція парсингу зазнала невдачі: %s"
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
-msgstr "Команда розробників Xfce. Всі права застережено."
+msgid "The Expidus development team. All rights reserved."
+msgstr "Команда розробників Expidus. Всі права застережено."
 
 #: ../esconf-query/main.c:270
 #, c-format

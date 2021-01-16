@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-01 18:31+0200\n"
 "PO-Revision-Date: 2018-09-14 00:20+0000\n"
-"Last-Translator: Xfce Bot <transifex@expidus.org>\n"
+"Last-Translator: Expidus Bot <transifex@expidus.org>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/expidus/esconf/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -153,12 +153,12 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr "在啟動後分叉至背景中；只有在測試用途中有用"
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
-msgstr "Xfce 組態幕後程式"
+msgid "Expidus Configuration Daemon"
+msgstr "Expidus 組態幕後程式"
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
-msgstr "Xfce 組態幕後程式"
+msgid "Expidus configuration daemon"
+msgstr "Expidus 組態幕後程式"
 
 #: ../esconfd/main.c:184
 msgid "Report bugs to http://bugs.expidus.org/\n"
@@ -254,8 +254,8 @@ msgid "Option parsing failed: %s"
 msgstr "選項解析失敗：%s"
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
-msgstr "Xfce 開發團隊。保留所有權利。"
+msgid "The Expidus development team. All rights reserved."
+msgstr "Expidus 開發團隊。保留所有權利。"
 
 #: ../esconf-query/main.c:270
 #, c-format

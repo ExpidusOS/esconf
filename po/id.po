@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-01 18:31+0200\n"
 "PO-Revision-Date: 2018-09-14 00:20+0000\n"
-"Last-Translator: Xfce Bot <transifex@expidus.org>\n"
+"Last-Translator: Expidus Bot <transifex@expidus.org>\n"
 "Language-Team: Indonesian (http://www.transifex.com/expidus/esconf/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -151,12 +151,12 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr "Membuat cabang ke latar setelah memulai; hanya berguna untuk keperluan pengujian"
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
-msgstr "Jurik Konfigurasi Xfce"
+msgid "Expidus Configuration Daemon"
+msgstr "Jurik Konfigurasi Expidus"
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
-msgstr "Jurik konfigurasi Xfce"
+msgid "Expidus configuration daemon"
+msgstr "Jurik konfigurasi Expidus"
 
 #: ../esconfd/main.c:184
 msgid "Report bugs to http://bugs.expidus.org/\n"
@@ -252,8 +252,8 @@ msgid "Option parsing failed: %s"
 msgstr "Opsi mengurai gagal: %s"
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
-msgstr "Tim pengembang Xfce. Hak cipta dilindungi undang-undang."
+msgid "The Expidus development team. All rights reserved."
+msgstr "Tim pengembang Expidus. Hak cipta dilindungi undang-undang."
 
 #: ../esconf-query/main.c:270
 #, c-format

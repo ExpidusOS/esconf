@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-01 18:31+0200\n"
 "PO-Revision-Date: 2018-09-14 00:20+0000\n"
-"Last-Translator: Xfce Bot <transifex@expidus.org>\n"
+"Last-Translator: Expidus Bot <transifex@expidus.org>\n"
 "Language-Team: Latvian (http://www.transifex.com/expidus/esconf/language/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -151,12 +151,12 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr "Zarot fonā pēc palaišanas; noderīgi tikai testa nolūkiem"
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
-msgstr "Xfce konfigurācijas dēmons"
+msgid "Expidus Configuration Daemon"
+msgstr "Expidus konfigurācijas dēmons"
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
-msgstr "Xfce konfigurācijas dēmons"
+msgid "Expidus configuration daemon"
+msgstr "Expidus konfigurācijas dēmons"
 
 #: ../esconfd/main.c:184
 msgid "Report bugs to http://bugs.expidus.org/\n"
@@ -252,8 +252,8 @@ msgid "Option parsing failed: %s"
 msgstr ""
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
-msgstr "Xfce izstrādes komanda. Visas tiesības paturētas."
+msgid "The Expidus development team. All rights reserved."
+msgstr "Expidus izstrādes komanda. Visas tiesības paturētas."
 
 #: ../esconf-query/main.c:270
 #, c-format

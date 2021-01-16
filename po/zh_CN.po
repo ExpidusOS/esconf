@@ -156,12 +156,12 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr "启动后转入后台；仅用于测试目的"
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
-msgstr "Xfce 配置守护进程"
+msgid "Expidus Configuration Daemon"
+msgstr "Expidus 配置守护进程"
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
-msgstr "Xfce 配置守护进程"
+msgid "Expidus configuration daemon"
+msgstr "Expidus 配置守护进程"
 
 #: ../esconfd/main.c:184
 msgid "Report bugs to http://bugs.expidus.org/\n"
@@ -257,8 +257,8 @@ msgid "Option parsing failed: %s"
 msgstr "无法解析选项：%s"
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
-msgstr "Xfce 开发团队。保留所有权利。"
+msgid "The Expidus development team. All rights reserved."
+msgstr "Expidus 开发团队。保留所有权利。"
 
 #: ../esconf-query/main.c:270
 #, c-format

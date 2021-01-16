@@ -152,12 +152,12 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr "Անցնել յետնաշերտային եղանակին մեկնարկից յետոյ՝ աւգտատակար է միայն փորձարկային նպատակների դէպքում"
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
-msgstr "Xfce֊ի Կազմաձեւման Աւժանդակ Ծրագիր"
+msgid "Expidus Configuration Daemon"
+msgstr "Expidus֊ի Կազմաձեւման Աւժանդակ Ծրագիր"
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
-msgstr "Xfce֊ի կազմաձեւման աւժանդակ ծրագիր"
+msgid "Expidus configuration daemon"
+msgstr "Expidus֊ի կազմաձեւման աւժանդակ ծրագիր"
 
 #: ../esconfd/main.c:184
 msgid "Report bugs to http://bugs.expidus.org/\n"
@@ -253,8 +253,8 @@ msgid "Option parsing failed: %s"
 msgstr "Ընտրանքի վերլուծման ձախողում․ %s"
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
-msgstr "Xfce֊ի մշակման խումբ։ Բոլոր իրաւունքները պաշտպանուած են։"
+msgid "The Expidus development team. All rights reserved."
+msgstr "Expidus֊ի մշակման խումբ։ Բոլոր իրաւունքները պաշտպանուած են։"
 
 #: ../esconf-query/main.c:270
 #, c-format

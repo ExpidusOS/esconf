@@ -152,12 +152,12 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr "Esegue il fork in background dopo l'avvio; utile solamente per eseguire delle prove"
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
-msgstr "Demone della configurazione di Xfce"
+msgid "Expidus Configuration Daemon"
+msgstr "Demone della configurazione di Expidus"
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
-msgstr "Demone della configurazione di Xfce"
+msgid "Expidus configuration daemon"
+msgstr "Demone della configurazione di Expidus"
 
 #: ../esconfd/main.c:184
 msgid "Report bugs to http://bugs.expidus.org/\n"
@@ -253,8 +253,8 @@ msgid "Option parsing failed: %s"
 msgstr "Impossibile analizzare l'opzione: %s"
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
-msgstr "Il gruppo di sviluppo di Xfce. Tutti i diritti riservati."
+msgid "The Expidus development team. All rights reserved."
+msgstr "Il gruppo di sviluppo di Expidus. Tutti i diritti riservati."
 
 #: ../esconf-query/main.c:270
 #, c-format

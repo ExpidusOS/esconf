@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Xfce Bot <transifex@expidus.org>, 2014
+# Expidus Bot <transifex@expidus.org>, 2014
 # Мирослав Николић <miroslavnikolic@rocketmail.com>, 2012
 # Саша Петровић <salepetronije@gmail.com>, 2017
 msgid ""
@@ -153,11 +153,11 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr "Ствара клицу у позадини након покретања; корисно је само за сврхе испробавања"
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
+msgid "Expidus Configuration Daemon"
 msgstr "Домар подешавања Иксфце-а"
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
+msgid "Expidus configuration daemon"
 msgstr "Прибор за подешавање Иксфце-а"
 
 #: ../esconfd/main.c:184
@@ -254,7 +254,7 @@ msgid "Option parsing failed: %s"
 msgstr "Није успела обрада опције: %s"
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
+msgid "The Expidus development team. All rights reserved."
 msgstr "ИксФЦЕ-ova развојна дружина. Сва права су задржана."
 
 #: ../esconf-query/main.c:270

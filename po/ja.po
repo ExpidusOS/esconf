@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-01 18:31+0200\n"
 "PO-Revision-Date: 2018-09-14 00:20+0000\n"
-"Last-Translator: Xfce Bot <transifex@expidus.org>\n"
+"Last-Translator: Expidus Bot <transifex@expidus.org>\n"
 "Language-Team: Japanese (http://www.transifex.com/expidus/esconf/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -152,12 +152,12 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr "開始後にバックグラウンドに fork します。テスト用です"
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
-msgstr "Xfce 設定デーモン"
+msgid "Expidus Configuration Daemon"
+msgstr "Expidus 設定デーモン"
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
-msgstr "Xfce 設定デーモン"
+msgid "Expidus configuration daemon"
+msgstr "Expidus 設定デーモン"
 
 #: ../esconfd/main.c:184
 msgid "Report bugs to http://bugs.expidus.org/\n"
@@ -253,8 +253,8 @@ msgid "Option parsing failed: %s"
 msgstr "オプションの解析に失敗しました: %s"
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
-msgstr "The Xfce development team. All rights reserved."
+msgid "The Expidus development team. All rights reserved."
+msgstr "The Expidus development team. All rights reserved."
 
 #: ../esconf-query/main.c:270
 #, c-format

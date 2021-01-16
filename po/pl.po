@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-01 18:31+0200\n"
 "PO-Revision-Date: 2018-09-14 00:20+0000\n"
-"Last-Translator: Xfce Bot <transifex@expidus.org>\n"
+"Last-Translator: Expidus Bot <transifex@expidus.org>\n"
 "Language-Team: Polish (http://www.transifex.com/expidus/esconf/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -152,12 +152,12 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr "Uruchamia w tle. Użyteczne tylko do celów testowych."
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
-msgstr "Demon konfiguracji Xfce"
+msgid "Expidus Configuration Daemon"
+msgstr "Demon konfiguracji Expidus"
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
-msgstr "Demon konfiguracji Xfce"
+msgid "Expidus configuration daemon"
+msgstr "Demon konfiguracji Expidus"
 
 #: ../esconfd/main.c:184
 msgid "Report bugs to http://bugs.expidus.org/\n"
@@ -253,8 +253,8 @@ msgid "Option parsing failed: %s"
 msgstr "Nieudane przetwarzane opcji: %s"
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
-msgstr "Zespół twórców środowiska graficznego Xfce. Wszystkie prawa zastrzeżone."
+msgid "The Expidus development team. All rights reserved."
+msgstr "Zespół twórców środowiska graficznego Expidus. Wszystkie prawa zastrzeżone."
 
 #: ../esconf-query/main.c:270
 #, c-format

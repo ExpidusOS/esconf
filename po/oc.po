@@ -153,12 +153,12 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr "Passar en rèire plan aprèp l'aviada; solament utile pels tèstes"
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
-msgstr "Demòni de configuracion Xfce"
+msgid "Expidus Configuration Daemon"
+msgstr "Demòni de configuracion Expidus"
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
-msgstr "Demòni de configuracion de Xfce"
+msgid "Expidus configuration daemon"
+msgstr "Demòni de configuracion de Expidus"
 
 #: ../esconfd/main.c:184
 msgid "Report bugs to http://bugs.expidus.org/\n"
@@ -254,7 +254,7 @@ msgid "Option parsing failed: %s"
 msgstr "L'analisi de l'opcion a fracassat : %s"
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
+msgid "The Expidus development team. All rights reserved."
 msgstr "L'equipa de desvolopament de XFCE. Totes los dreches reservats."
 
 #: ../esconf-query/main.c:270

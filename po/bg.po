@@ -153,12 +153,12 @@ msgid "Fork into background after starting; only useful for testing purposes"
 msgstr "Изпълнение във фонов режим след стартиране (подходящо единствено за тестове)"
 
 #: ../esconfd/main.c:173
-msgid "Xfce Configuration Daemon"
-msgstr "Диспечер на конфигурацията на Xfce"
+msgid "Expidus Configuration Daemon"
+msgstr "Диспечер на конфигурацията на Expidus"
 
 #: ../esconfd/main.c:182
-msgid "Xfce configuration daemon"
-msgstr "Диспечер на конфигурацията на Xfce"
+msgid "Expidus configuration daemon"
+msgstr "Диспечер на конфигурацията на Expidus"
 
 #: ../esconfd/main.c:184
 msgid "Report bugs to http://bugs.expidus.org/\n"
@@ -254,8 +254,8 @@ msgid "Option parsing failed: %s"
 msgstr "Неуспешeн вариант на синтаксиса: %s"
 
 #: ../esconf-query/main.c:269
-msgid "The Xfce development team. All rights reserved."
-msgstr "Екипът по разработка на Xfce. Всички права са запазени."
+msgid "The Expidus development team. All rights reserved."
+msgstr "Екипът по разработка на Expidus. Всички права са запазени."
 
 #: ../esconf-query/main.c:270
 #, c-format
